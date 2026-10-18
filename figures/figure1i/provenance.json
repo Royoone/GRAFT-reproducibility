@@ -1,0 +1,9 @@
+{
+  "source_script": "GRAFT_组件功能消融/code/draw_joint_modulation.py",
+  "source_script_sha256": "e1d219c5aa561f4341c75b3f5d537cfc81c123837f6eccad9517d1ed94e89650",
+  "modifications": [
+    "portable input/output paths",
+    "output basename F1i"
+  ],
+  "scope": "Conditional modulation panel shown in the manuscript; unchanged cell means, confidence intervals and paired inset"
+}

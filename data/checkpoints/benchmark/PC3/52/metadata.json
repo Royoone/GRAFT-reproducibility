@@ -1,0 +1,18 @@
+{
+  "file": "model.npz",
+  "seed": 52,
+  "target": "PC3",
+  "mapping": "cross_moment_residual",
+  "scale": 1.3408634662628174,
+  "gain": 1.0,
+  "sources": [
+    "A375",
+    "A549",
+    "HT29",
+    "MCF7"
+  ],
+  "steps": 200,
+  "original_checkpoint_sha256": "3cbab487c62b2c04a52b3907b26d9204a9a36211bfcd0f89b1c63fe6e02d57b1",
+  "sha256": "aa68e8831c0300219b77d025776be8c9ec2a63108a59f7e77e065c31acbf4234",
+  "bytes": 810128
+}

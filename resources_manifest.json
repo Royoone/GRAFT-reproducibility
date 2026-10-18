@@ -1,0 +1,2006 @@
+{
+  "project": "GRAFT-reproducibility",
+  "schema_version": 1,
+  "hash_algorithm": "SHA-256",
+  "scope": "Immutable packaged code, documents and fixed resources; excludes this manifest itself and generated results/caches.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 501,
+      "sha256": "37576f3b749f671e6186b9cf6e0401de0c0f4970b9a20975118e82718ea4601b",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3918,
+      "sha256": "91dbb36ac3285ce28d94da88714f108327d059482a13966fa6c1ddf9d8ec4dde",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 1377,
+      "sha256": "ae2ede24d4feda3d6917f65c18807c497293af4af306be8e0ecb89d11415604f",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/annotations/compounds.csv",
+      "bytes": 2996685,
+      "sha256": "ed4d394b90805aec429428cbf433a87635997bd5973cf33a6464abb651cc2b23",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation/A375/kernel/adapter.npz",
+      "bytes": 62718,
+      "sha256": "1d17f0641eb567a4e70dd8db72f1725f573492a181f63dd038aaad9d8366338a",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation/A375/kernel/metadata.json",
+      "bytes": 417,
+      "sha256": "1e1fc910e94749810ac2e5cd86753a6ed039e83ad33fe262954c0a8644699869",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation/A375/ridge/adapter.npz",
+      "bytes": 62717,
+      "sha256": "862b9b5cb2ffb8df713c0bb5bd8cf6fb2fdb1a908b6fb17f638f1b43c1015dad",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation/A375/ridge/metadata.json",
+      "bytes": 416,
+      "sha256": "92740d772bbedb5f7de3a51c0c109ba4e7df3eed518121fbd2a252df01415b5e",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation/A375/ridge_remix/adapter.npz",
+      "bytes": 62378,
+      "sha256": "a1049a63033ed2f8d574c4c6a09a026ae33c454695d3c536bdd12b09606b2bfb",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation/A375/ridge_remix/metadata.json",
+      "bytes": 421,
+      "sha256": "5f3066b1b9b81b31519bc5c34c5aa495eda64448ead6d5f170a54e7029e2214e",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation/A549/kernel/adapter.npz",
+      "bytes": 62707,
+      "sha256": "ff1ef5fad9b4586b373e0e1a661cb1ce872ed0e2032c18f2ccaed611e2eaad95",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation/A549/kernel/metadata.json",
+      "bytes": 417,
+      "sha256": "b90dd7b55c120cd4b4e4d18dc08670ba21534bd340fa6534a6c0bdcb7baba7a7",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation/A549/ridge/adapter.npz",
+      "bytes": 62764,
+      "sha256": "48003cbcbe2f3afe8018daa2b9cba7c53154b39e52a2d94a64aa1d1ec7baabe1",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation/A549/ridge/metadata.json",
+      "bytes": 417,
+      "sha256": "35fa13d3745cabaa7c3e45fad6c160939fed8f0924d750fd45fcd5911d227791",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation/A549/ridge_remix/adapter.npz",
+      "bytes": 62828,
+      "sha256": "bf3a5942d138669600dd8fbee69018fe2216d7e0cc29ec9e594587c8ded7db36",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation/A549/ridge_remix/metadata.json",
+      "bytes": 422,
+      "sha256": "76e15da2cd49112d2986126cba483c06535a3882b68157ab8aa062bc7d9a2657",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation/HT29/kernel/adapter.npz",
+      "bytes": 62745,
+      "sha256": "dbdec02bf71361288906d6c1df9a98a21687dd645e56fcce215d317481c745eb",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation/HT29/kernel/metadata.json",
+      "bytes": 417,
+      "sha256": "d52063a5ab032026149848ae16ce018844af74ad7b6d2f46640535013ef5f48e",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation/HT29/ridge/adapter.npz",
+      "bytes": 62723,
+      "sha256": "33f96d27febbcc1b588a95c5c185c78ca4d4a4a8f16b043077a0cb153cfdabd3",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation/HT29/ridge/metadata.json",
+      "bytes": 416,
+      "sha256": "408dd7df430579477ed525afdc877b125f286219c4651608c7dafc7792021d58",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation/HT29/ridge_remix/adapter.npz",
+      "bytes": 62338,
+      "sha256": "260119705c03b7bb557ac604605f39e4ad84f3392f009bda0e8baf5e5dc77a96",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation/HT29/ridge_remix/metadata.json",
+      "bytes": 421,
+      "sha256": "8510a95cb53328d6670eea0bc3df292f95797b24c6f461e4917ab07b3d5256f4",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation/MCF7/kernel/adapter.npz",
+      "bytes": 62773,
+      "sha256": "b90b1e487baf41c05613f6579290d9ac4ec8703cfafb04a25098b15f96c7d6b2",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation/MCF7/kernel/metadata.json",
+      "bytes": 417,
+      "sha256": "9495960ced898706e80f1154c9c4d3fccc84687c4930822601c71124cf1b0ccf",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation/MCF7/ridge/adapter.npz",
+      "bytes": 62749,
+      "sha256": "64afd9aeca94cd923cb6b44aa4764d067f22d759cceb642575624c0c94b1a509",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation/MCF7/ridge/metadata.json",
+      "bytes": 415,
+      "sha256": "630b1e05e7ad1785b0364bb2b3b4225dd92c1880850e3d98811bafd8089ef3de",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation/MCF7/ridge_remix/adapter.npz",
+      "bytes": 62351,
+      "sha256": "05d8ea503a9fb29c910cd565fb578ab2d13700906856a917aa27198d67ddf888",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation/MCF7/ridge_remix/metadata.json",
+      "bytes": 420,
+      "sha256": "2e913a4e5371b3ee867837e9eccd2c9b88ecb0f873b131767efcfcc4b0f5afd2",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation/PC3/kernel/adapter.npz",
+      "bytes": 62726,
+      "sha256": "46f7f192716f457965367d1c051fa1b3e9848b31b3f134437b72786b28b5fb05",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation/PC3/kernel/metadata.json",
+      "bytes": 417,
+      "sha256": "40750d004cb0deb4c83f963aeab958d535fa329c1fd0a58375a1a59275bae0e6",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation/PC3/ridge/adapter.npz",
+      "bytes": 62707,
+      "sha256": "6e97b9d49c9fc33f857db937d50ede4f7b401574341675dd9d93d5a3e711ac4d",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation/PC3/ridge/metadata.json",
+      "bytes": 415,
+      "sha256": "5e0d9df640132cd7ee17304129ae0bb161507381b88a583f3a723a3e62780d9f",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation/PC3/ridge_remix/adapter.npz",
+      "bytes": 62817,
+      "sha256": "17462ef595035503d2277cf08ae6cd75a78a257602ccf1df8d623a3940b99048",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation/PC3/ridge_remix/metadata.json",
+      "bytes": 422,
+      "sha256": "3128aaebd1c358ad357211c79229d53da710af2523a3277544a9690480075fb5",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation/external/ridge/adapter.npz",
+      "bytes": 62743,
+      "sha256": "71b27570eb4bbe5035c3da46d9a73dccc4bab1ac570368893aa48ab6774beffb",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation/external/ridge/metadata.json",
+      "bytes": 415,
+      "sha256": "6df6c147aaf43b651ce6bf7dcc563c8445b66bac37c254dc4ef257bfa1bdc1f8",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation/external/ridge_remix/adapter.npz",
+      "bytes": 62462,
+      "sha256": "51fafeacbdcc5929faa934857d0977aaeadeb6a4bc2d2868a509bf7a6062befd",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation/external/ridge_remix/metadata.json",
+      "bytes": 421,
+      "sha256": "ac06e214dfc6abe33e3d91cc5b2002672951ba3f9786d08c4c7b158bfeb3b5a5",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/A375/229/metadata.json",
+      "bytes": 425,
+      "sha256": "062dd5ebaa0c8c907f084cb84f79bbfdccedc58a5ec1b48710e2f229c50dab34",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/A375/229/model.npz",
+      "bytes": 794040,
+      "sha256": "d5cec50f85835aab45b05748a84ab67db2c3bef9c35a556580b88ba4a78656b8",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/A375/52/metadata.json",
+      "bytes": 424,
+      "sha256": "33e78d3cf4b172d5caef18014dd478b3aa6a762be119c92b168290f3fa3be564",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/A375/52/model.npz",
+      "bytes": 794064,
+      "sha256": "5339c778fbb63eb73487b84c153a8c96bfeda84130987d08f6ba8e2772e885fa",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/A375/564/metadata.json",
+      "bytes": 425,
+      "sha256": "30b3be05329fd12efa33cb1f515e06f7a7a6c47c45c9b33e5ff0cdbf3623808f",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/A375/564/model.npz",
+      "bytes": 794019,
+      "sha256": "b0a1d896054bfdda649c0407c6b899722e0f0f84ffdaf0c33fd9e6ea9ad1f531",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/A549/229/metadata.json",
+      "bytes": 425,
+      "sha256": "a9d7dbbc449a3d971430e26b64df70912fcbb919169b77ebad04e540d8daf168",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/A549/229/model.npz",
+      "bytes": 794065,
+      "sha256": "58b3b7538180026ea339396e64f61d6334fb6971781907e0c872329207dfe999",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/A549/52/metadata.json",
+      "bytes": 424,
+      "sha256": "6e87dbebf62a23b7625020de123cb1bc231fc29efd1d85268c232dfb5c0683ec",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/A549/52/model.npz",
+      "bytes": 794174,
+      "sha256": "851565cdcf5b6cd753f499e4f2f2bfebd4676ba8c8f45e552440212d86030bf9",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/A549/564/metadata.json",
+      "bytes": 425,
+      "sha256": "52f7ac5dcf47f5fa6a1253f0705505a3d4889c23ef2e1d388dbf7624e23b0676",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/A549/564/model.npz",
+      "bytes": 794094,
+      "sha256": "610d9d7c63d3d425cc8c24bcfbf9bfb5311c7bb0f3cdce19858e4ec9a8bc845f",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/HT29/229/metadata.json",
+      "bytes": 426,
+      "sha256": "66d61aaa18da6ecacd16555058b7912c99b38b89d3f3e43bd2024e158f0b1984",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/HT29/229/model.npz",
+      "bytes": 793954,
+      "sha256": "6cedb43122132e9ae7f9be2528dc1652848fda9a061c6bd5b49acc98ca3f772a",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/HT29/52/metadata.json",
+      "bytes": 425,
+      "sha256": "55998370a1333c1fbfa4565155322a8b8c606e182b4d1234c10fed594b1d77d9",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/HT29/52/model.npz",
+      "bytes": 793777,
+      "sha256": "a5c8914b10ff1a2ca929ef6ae77893762c35c2fe6c48b550fdd65601be269849",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/HT29/564/metadata.json",
+      "bytes": 426,
+      "sha256": "8f68cc7d7c201eeeffc3fae6abd5d8a4e22c861bdb1b6731f7d3374d435adaa3",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/HT29/564/model.npz",
+      "bytes": 793929,
+      "sha256": "5ef0689cbb0c94cce28414defadd761f918dc5f6e8a6f49a114439552b5e2de1",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/MCF7/229/metadata.json",
+      "bytes": 424,
+      "sha256": "81a90e658f4dfba454d8811c0bbc010c2fc7f5e956eac7043f664dbfef0f3386",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/MCF7/229/model.npz",
+      "bytes": 794361,
+      "sha256": "7ecea240389c017ecc2134309d1f766af6fd869079243dd935591182751e96f3",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/MCF7/52/metadata.json",
+      "bytes": 423,
+      "sha256": "31203a1000ea42658dfdf74f4a23fef83a4639c7a30129d94123119aba9f4689",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/MCF7/52/model.npz",
+      "bytes": 793891,
+      "sha256": "d64240674f4cb353aea9e9d6f41f7408ad51eac21d857ed76f7a3240bc7b0bc2",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/MCF7/564/metadata.json",
+      "bytes": 424,
+      "sha256": "c7a184460965892dddfab27f3f6f7b40246a2adee1b48f58eb0bdbdd9156b80b",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/MCF7/564/model.npz",
+      "bytes": 794181,
+      "sha256": "74abc8508e8b9cc8a3a0f263c22c0294489c01f19a4fea8781001e28776fa6bb",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/PC3/229/metadata.json",
+      "bytes": 426,
+      "sha256": "565dbb67051528cb8f1e4fac532f0ffa345da5fd972ae5d171c747507e725542",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/PC3/229/model.npz",
+      "bytes": 793801,
+      "sha256": "09149c3c8113b9837e85d930800c3609b6f4e3b2fdcd622525eab811159147ed",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/PC3/52/metadata.json",
+      "bytes": 425,
+      "sha256": "5bfaa9d50f31bc3e433a784aff069ec8ac6ea59dec41f36a270797c810a255c8",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/PC3/52/model.npz",
+      "bytes": 793815,
+      "sha256": "ba108c01854c25184a399a3ebc0c3b5db6e1dbaac69b6018d6edf14a4e544028",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/PC3/564/metadata.json",
+      "bytes": 426,
+      "sha256": "36ce3eb65f8259267f61afa9af0d465b8cc0f39863ef7a322b67c850589da655",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/adaptation_backbone/PC3/564/model.npz",
+      "bytes": 794248,
+      "sha256": "233533708de2f2bae6f03733de2cf1f9754eb8ebcbdc6e8ba3f69909f3aed891",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/adaptation_manifest.json",
+      "bytes": 16615,
+      "sha256": "680f4db2dbc0acd21929e75d68f4d0f0204e33d4dc67a8a6f249872594803da3",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/benchmark/A375/229/metadata.json",
+      "bytes": 425,
+      "sha256": "3f2c43275003b00e977d26e026768cf669ab981b8df76d27008d7c0c9bbaa9f3",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/benchmark/A375/229/model.npz",
+      "bytes": 810144,
+      "sha256": "124dd9d0a784d615e2871e5885162423989acdc5aa5383a4482d4990b8b94131",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/benchmark/A375/52/metadata.json",
+      "bytes": 424,
+      "sha256": "bd0e51a47f84ce0ec299d5edbbfcbba10af7fa782ed5296f90f4a9974d613bf2",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/benchmark/A375/52/model.npz",
+      "bytes": 810296,
+      "sha256": "641e67a21895f2511bdce0b02ba64cf566fac423f89f594e738a26a565ab1be6",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/benchmark/A375/564/metadata.json",
+      "bytes": 425,
+      "sha256": "62fd608a3e08159d2ca6a057341e4abea095d5f779028513b7654af74f97755a",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/benchmark/A375/564/model.npz",
+      "bytes": 809992,
+      "sha256": "78a25b2cf13fe9b50afd82a0f172e5b3492ac84c47d3f9397cff34e5d169b558",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/benchmark/A549/229/metadata.json",
+      "bytes": 425,
+      "sha256": "51864930de746347c9442007120abb532106f83925dfc24f0d3ea49cc5619b86",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/benchmark/A549/229/model.npz",
+      "bytes": 810554,
+      "sha256": "fb2291de8fac174380f3870c3304ad2fe0c75abafd31bdc495400cf13355bd3f",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/benchmark/A549/52/metadata.json",
+      "bytes": 424,
+      "sha256": "59ab9f03bf3e20eeb0fc085aa2bd400b83173b112b261ed09b8a880f0afc931f",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/benchmark/A549/52/model.npz",
+      "bytes": 809957,
+      "sha256": "f0b46786e9fcb5128364f9be827a3ee5428444864d1970894aa6b5fd59c96b76",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/benchmark/A549/564/metadata.json",
+      "bytes": 425,
+      "sha256": "4b7fec58477168859f90a380354780d42ff338cd6b58197345726f65eb0b1c16",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/benchmark/A549/564/model.npz",
+      "bytes": 810485,
+      "sha256": "ae5564436fcf474308c9fc08a3a325ccdea56c5d0ac8c6ae4cfdddc1f2b38332",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/benchmark/HT29/229/metadata.json",
+      "bytes": 426,
+      "sha256": "6ddae1610eed7036c7a41ac6260bd5a8d13e225ae794aa38418681985b9e649e",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/benchmark/HT29/229/model.npz",
+      "bytes": 810160,
+      "sha256": "b29e2a8cb49444606ae998be61289e7eb882b265dbc8ab2ddeb068c143fddfbb",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/benchmark/HT29/52/metadata.json",
+      "bytes": 425,
+      "sha256": "630de47a44739788874bb7c82f9cb4252cc2dc15e3293a8def81b8ea6006c654",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/benchmark/HT29/52/model.npz",
+      "bytes": 810379,
+      "sha256": "a66694b6fcdfaa706187a3aa32e2c33a7537942fc6d62061e2bf98d7dc1520ee",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/benchmark/HT29/564/metadata.json",
+      "bytes": 426,
+      "sha256": "cd716c4c32ade3d3f04fd9a4531e0470bdcb8d44510d475bb11796f0307a04e4",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/benchmark/HT29/564/model.npz",
+      "bytes": 810293,
+      "sha256": "385ef4b4b0caf0c99e7831624b3b1aa21404187b114976915f7447bd4e1cc998",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/benchmark/MCF7/229/metadata.json",
+      "bytes": 424,
+      "sha256": "276e13208fddf6b56a4c73492a50150e7bd26a447156093e5424c6afc0f848ec",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/benchmark/MCF7/229/model.npz",
+      "bytes": 810819,
+      "sha256": "3ca3da88951d965537a2f4ad30ac33f36d8bb489df6e25a5adf9b02d06492050",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/benchmark/MCF7/52/metadata.json",
+      "bytes": 423,
+      "sha256": "746b709b086a519dd06fdc2661ea7130dc8140e0524a644725ff7c70ead6f09e",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/benchmark/MCF7/52/model.npz",
+      "bytes": 810525,
+      "sha256": "c47ba70b393994219358b9c5c2b6e47ae30a2a5d36303dacc34a94f324c1bbf5",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/benchmark/MCF7/564/metadata.json",
+      "bytes": 424,
+      "sha256": "0740cb5d85cc9dc58c15a3d22f5cb4ab0dcd663c8f6f8dff33c5c8944a04068f",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/benchmark/MCF7/564/model.npz",
+      "bytes": 810239,
+      "sha256": "a799fe361ad11c6ea3d290d50a516a8f3bccdff9dfe4e17c57dad2b48473ca01",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/benchmark/PC3/229/metadata.json",
+      "bytes": 426,
+      "sha256": "e0fc53a6d952b72cfb32f92c0a3124ecfdcfb66aa369c5fd97a329bcf2cc664b",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/benchmark/PC3/229/model.npz",
+      "bytes": 810431,
+      "sha256": "efe8f3664cc3de47afeee7e2bbeca3bbfb5110e5f568edfbf67fe60d9c50679b",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/benchmark/PC3/52/metadata.json",
+      "bytes": 425,
+      "sha256": "1fe88966a8db5e3894dcb581f8339a29ba22040ccc9a354b37d3000945907abc",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/benchmark/PC3/52/model.npz",
+      "bytes": 810128,
+      "sha256": "aa68e8831c0300219b77d025776be8c9ec2a63108a59f7e77e065c31acbf4234",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/benchmark/PC3/564/metadata.json",
+      "bytes": 426,
+      "sha256": "5a08459838cb0785ab060b7ee4a75ed14c0a90b61d54e37040a606af630c1470",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/benchmark/PC3/564/model.npz",
+      "bytes": 810338,
+      "sha256": "35ec0096cb925c6deec2ba3e0be38d84a1c3afd191498e934bc978ee45b7ff25",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/benchmark/external/229/metadata.json",
+      "bytes": 432,
+      "sha256": "21bba444597769bc1c2fb990a533f1c0741edf789aec0245057ff7aca1585d9f",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/benchmark/external/229/model.npz",
+      "bytes": 793861,
+      "sha256": "4ab28b2fe74331d13714e91ed83052dd4ee359506d378a51362acc91263544cb",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/benchmark/external/52/metadata.json",
+      "bytes": 431,
+      "sha256": "e3a2aa32e45128629e09a9e52ed521559fadb049dba3e5e7a5590c6b628738bc",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/benchmark/external/52/model.npz",
+      "bytes": 793816,
+      "sha256": "5b662906c1b594a30f9d352729309cd99975587c7cd5dec5b9e333f9498ef6b3",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/benchmark/external/564/metadata.json",
+      "bytes": 432,
+      "sha256": "93728e3ed0796f60abda5d2f2effc333a7828b1f144bb10b00307a0eb4fa79ac",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/checkpoints/benchmark/external/564/model.npz",
+      "bytes": 794052,
+      "sha256": "31c538cd4d85d39148a4961c8e533e836462ca8180afed3273b5b7a012ebf224",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/checkpoints/benchmark/manifest.json",
+      "bytes": 10792,
+      "sha256": "3dfe04fb1ce0e30523cf52a9372f0027d2ae4769ceeb960bea01ba75d1d1d88b",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/model_bundle/adapter.npz",
+      "bytes": 62451,
+      "sha256": "0db003cf0997395c4e00c0bf3aff296fb92331082833516cd1070979b082a2f1",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/model_bundle/catalog.tsv",
+      "bytes": 607637,
+      "sha256": "a1fb3d78555bca9519c904a06097c06c3e2d6094d4639c4578eeefee6c74eecf",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/model_bundle/genes.tsv",
+      "bytes": 5963,
+      "sha256": "c6ef9317bf404e565f37c938d8155eff5b34fa7a6f9bbddcc054407491caf80c",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/model_bundle/genetic_ids.tsv",
+      "bytes": 40521,
+      "sha256": "beb47435ec496116e31e7c1d62e2d758d5bd7be42bed691202cdac15e414641c",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/model_bundle/graft_seed229.npz",
+      "bytes": 810220,
+      "sha256": "24aa7ba8b751088573282128243acde3d51616c17e5dc4c403f03a6d8099b785",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/model_bundle/graft_seed52.npz",
+      "bytes": 809921,
+      "sha256": "052eeb2b464e234f180a99f7718f7ae02a70dc101408a5c8b471e6fa74f872ae",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/model_bundle/graft_seed564.npz",
+      "bytes": 810313,
+      "sha256": "ef7a5746b18c325ec39d6de50a98ed716430f6a27f5da022b6c38feabe21698b",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/model_bundle/manifest.json",
+      "bytes": 2924,
+      "sha256": "264b7e5864192772514d157bd5bcfcf735e8c57f73e90566ab8da64ece1010da",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/model_bundle/reference.npz",
+      "bytes": 58858795,
+      "sha256": "696eef21f7c10dd39b3ff3233581fbb940bd664906c3b973cbf530b640327e0c",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/processed/adaptation/splits/A375/anchor_order.csv",
+      "bytes": 29245,
+      "sha256": "6812ed66af12080eaa079ca2cc3d012d70cdaa6c84e69feb5fe69c218571c2c9",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/adaptation/splits/A375/query_split.csv",
+      "bytes": 79871,
+      "sha256": "cc8f6b9646c74f5a7480a8b139d4a895673d433f274a6e2022c3127edf652334",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/adaptation/splits/A549/anchor_order.csv",
+      "bytes": 29245,
+      "sha256": "bf7e910a8fe8105d5bf959c2f166b8cf1d8473c4d0de4c73678f064d2bae6380",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/adaptation/splits/A549/query_split.csv",
+      "bytes": 79871,
+      "sha256": "cc8f6b9646c74f5a7480a8b139d4a895673d433f274a6e2022c3127edf652334",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/adaptation/splits/HAP1/anchor_order.csv",
+      "bytes": 8595,
+      "sha256": "7f83807e72ddb94ce16d726e72ac32bb2172bfdfa56cd730584181770a19205e",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/adaptation/splits/HAP1/query_split.csv",
+      "bytes": 1837,
+      "sha256": "15764003b17d91d00f83b1cc6576578cbd4fd9f040600700eed703e7206c4d6e",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/adaptation/splits/HT29/anchor_order.csv",
+      "bytes": 29245,
+      "sha256": "4499509b77b997ff3dadcd9671d15dcb47b017230b8e669e1d21e113dc8ac392",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/adaptation/splits/HT29/query_split.csv",
+      "bytes": 79871,
+      "sha256": "cc8f6b9646c74f5a7480a8b139d4a895673d433f274a6e2022c3127edf652334",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/adaptation/splits/HepG2/anchor_order.csv",
+      "bytes": 29245,
+      "sha256": "373086892cedfdd0311c53124b152a8dfc98899aebf6293589ddb367462ea1da",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/adaptation/splits/HepG2/query_split.csv",
+      "bytes": 96051,
+      "sha256": "d3ced2eea5cfa8ab0d58bf667c20504e509fd8543ea6b0d5b4439f5960d7f153",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/adaptation/splits/Jurkat/anchor_order.csv",
+      "bytes": 29245,
+      "sha256": "0fdf7323bfad527150c9820a80382d8996eae7c290a4dfea5fa8a28505a4ffdd",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/adaptation/splits/Jurkat/query_split.csv",
+      "bytes": 29781,
+      "sha256": "d0a07a63ba30f0611311d3d14c4ad3d89c2f7214e61093e7a5044be077e14f92",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/adaptation/splits/K562_L1000/anchor_order.csv",
+      "bytes": 8595,
+      "sha256": "a80025cbd478fc4f83f27cb569ad5d0f8f7cb9d77000424d78b1bb0ae0138433",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/adaptation/splits/K562_L1000/query_split.csv",
+      "bytes": 2049,
+      "sha256": "abe43e3bbc6cba8c3bd7b0c1dc67d585a02bae30951d4399f1a97ffa91b95a7d",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/adaptation/splits/MCF10A/anchor_order.csv",
+      "bytes": 29245,
+      "sha256": "927973c67466f727d71f09f7663f2055ce9555e5e13a506af658090001a535d6",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/adaptation/splits/MCF10A/query_split.csv",
+      "bytes": 31477,
+      "sha256": "ad03e6cfa0e434162dd8c85f2c689496840def899f33140159f8c77dfb766de9",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/adaptation/splits/MCF7/anchor_order.csv",
+      "bytes": 29245,
+      "sha256": "105aa53cbdb326e5f28154a456d69dbe84eab99dc4544da28ee9b5605d0c4fb5",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/adaptation/splits/MCF7/query_split.csv",
+      "bytes": 79871,
+      "sha256": "cc8f6b9646c74f5a7480a8b139d4a895673d433f274a6e2022c3127edf652334",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/adaptation/splits/PC3/anchor_order.csv",
+      "bytes": 29245,
+      "sha256": "e3cd8691f910b554b0a6e3fad558dd4e15e367e6441e77859ead9c5d4f54f4b1",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/adaptation/splits/PC3/query_split.csv",
+      "bytes": 79871,
+      "sha256": "cc8f6b9646c74f5a7480a8b139d4a895673d433f274a6e2022c3127edf652334",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/adaptation/splits/paper_contract.json",
+      "bytes": 14424,
+      "sha256": "410d274aafb4fde5ca7ffe48e6e6e3dc9684f723049636d5d0948897daffc975",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/atlas/atlas13_entities.npz",
+      "bytes": 497823092,
+      "sha256": "6388ddc0a7262aba084ac8c9356c37b06772866187616ef4a2d59070c12778ae",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/processed/atlas/chemical_catalog.csv",
+      "bytes": 1560901,
+      "sha256": "1aa48acb2e3dc4e8e3a0198a719ff988ba16e344dbe02473dde4dc8a0d8ed198",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/atlas/coverage.csv",
+      "bytes": 1683,
+      "sha256": "93c8431d41370cd2de4b9f8f2795187f5099abc52f2153763f643187a214f8f9",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/atlas/hallmark.gmt",
+      "bytes": 48686,
+      "sha256": "eecaf6dad908334ae885406ec72bdc0646d8917588ed7c219fac92fc5363f596",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/atlas/record_catalog.csv",
+      "bytes": 3231142,
+      "sha256": "f163911b779541417a89b23a440c03462cf312efae9a6a7f7a9408c05429b729",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/atlas/reference/chemical_catalog.csv",
+      "bytes": 1560901,
+      "sha256": "1aa48acb2e3dc4e8e3a0198a719ff988ba16e344dbe02473dde4dc8a0d8ed198",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/atlas/reference/class_profiles.npz",
+      "bytes": 754264,
+      "sha256": "8175bfb665fcec999228048c7a8e180ac1387da6ffd629d5edacb341fd7b8d48",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/atlas/reference/hallmark_class_scores.csv",
+      "bytes": 1275527,
+      "sha256": "c1982004edc7e860f2b8509cfa71ec1777139b871a2dd912735d1d303bd38a2d",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/atlas/reference/hallmark_ora.csv",
+      "bytes": 2041342,
+      "sha256": "eac144d60be42aa956b499d77215a6b6ad5caa594816290c6f3e5d6c41a427cb",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/atlas/reference/manifest.json",
+      "bytes": 1218,
+      "sha256": "54d9a706bf19bc239f811535f0b817267c70d25f6807719bb5cef2b0a497d397",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/atlas/reference/pi3k_mtor_correlation_ci.csv",
+      "bytes": 192,
+      "sha256": "86ab8f831a73dfb9699f6a2aa7514a5d0ccad06ef4f59199763a94884ae1ea21",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/atlas/reference/pi3k_mtor_disjoint_gene_profiles.csv",
+      "bytes": 71757,
+      "sha256": "d3a7aed666ced8533ed191baa5c1788313f2fa0b8c7fb432a0d4ed41833c6847",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/atlas/reference/response_metrics.npz",
+      "bytes": 23690359,
+      "sha256": "a2c9a307e3c9c0a59170bca7ddf4388fef6569a42d1e0afe0d4148d44dc695fa",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/comparisons/anchors20.json",
+      "bytes": 8746,
+      "sha256": "f0cb1fa7e11091033a0c1d9cae29515defaea9034fdc16e1b7bae99a1f9a7ee5",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/diagnostics/reference/capacity.csv",
+      "bytes": 3220,
+      "sha256": "f7302c928027fb74dc2f31bdc1410b056ad1c7fd44b7250c42a5a2879f4f6297",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/diagnostics/reference/diagnostics.csv",
+      "bytes": 308384,
+      "sha256": "ae093c8ee3fcb9e0de698e1c08ffe4a68217debddbdd99ef1c71cdebb2c9b3ab",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/diagnostics/reference/interfaces.csv",
+      "bytes": 17495,
+      "sha256": "42f00be8f518510b6282a751ea00a3306b8340a53b24463dc2136e353b345bbf",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/diagnostics/reference/representations.csv",
+      "bytes": 40241,
+      "sha256": "52f4415d706bce3e0224e8f1a73b56ae3ab7a3c8d163215bb6b43e24a78cdb95",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/diagnostics/representations.npz",
+      "bytes": 37330881,
+      "sha256": "83f1a8a728853a6825fc34725f11f1f0a6727f4de8dd2f9b901c5edb52e4c4b2",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/processed/diagnostics/representations_manifest.json",
+      "bytes": 2481,
+      "sha256": "5506f529280c76c52d2020d4d6a066e1730747258340e5cb120f61bb8e37b72b",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/external/HAP1.npz",
+      "bytes": 994704,
+      "sha256": "9ace7f9a65bc62d5a57c13003e29fb0e3bb4626fa7027cb3e399e28770d3bb7f",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/processed/external/HepG2.npz",
+      "bytes": 25659585,
+      "sha256": "0675c8f361a1210c1b327ff36cb73655a4ca0fa5908b66bef317ec6e472fa957",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/processed/external/Jurkat.npz",
+      "bytes": 8525732,
+      "sha256": "a1a467467e4e4cb5cb5773376070acec3c82d77e13b7731ccb4a5d38c7087fa1",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/processed/external/K562_L1000.npz",
+      "bytes": 2297947,
+      "sha256": "9142ed8f94018fef23d76ad471fce8b59af365ff0c8e4b09fa1059abe3785f3d",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/processed/external/MCF10A.npz",
+      "bytes": 7942280,
+      "sha256": "893a8d75d8eba4180c2f2e8d24e8837375e9a02d850f6a36bb676cd58dc7bd33",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/processed/ipsc/figshare_26819743_metadata.json",
+      "bytes": 8425,
+      "sha256": "7af4e267f81ffe63ff0b9b7889246906dbe1beee86fbedf75d7f461b92fd6291",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/ipsc/figshare_27989294_metadata.json",
+      "bytes": 6656,
+      "sha256": "33ef74499a9589672602327120a7c327a2a545716390a7c0cd5103a5fb745af5",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/ipsc/graft_input_976.json",
+      "bytes": 602,
+      "sha256": "961b4392d20f79e92365226be805df036124e8f4b90d1a5ef04f2791d9c321cd",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/ipsc/graft_input_976.npz",
+      "bytes": 8259656,
+      "sha256": "bb46b89e2e96b9c6beab79044798530745fd291fed6660d32c0e490bf717de9b",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/processed/ipsc/record_catalog.csv",
+      "bytes": 3231142,
+      "sha256": "f163911b779541417a89b23a440c03462cf312efae9a6a7f7a9408c05429b729",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "data/processed/sources/A375.npz",
+      "bytes": 55655817,
+      "sha256": "4fee39381cd43afb8da1f539385ca4c4bfbe43e9f626820f60da14ab8302e4c4",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/processed/sources/A549.npz",
+      "bytes": 74303048,
+      "sha256": "7acbe24afd959b1a2b90a4f8a60e021cd61a9079baff485c5088fdbff3157350",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/processed/sources/HT29.npz",
+      "bytes": 50503974,
+      "sha256": "ee3621ecb5def620ffe1f5f6dc2238b59409e05ba27b8eefa207f10a2a8706fa",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/processed/sources/MCF7.npz",
+      "bytes": 79979993,
+      "sha256": "bec431017dcb6a797a6b26b2ecfaa6288a0aafee75d62cde3cbc1cfa4d2faf5d",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/processed/sources/PC3.npz",
+      "bytes": 85666923,
+      "sha256": "02dc69545d24fc3b4567e460a3412e2ea5e3cc8bd2a428a9742d056ed14fd4ad",
+      "distribution": "GitHub Release资源包"
+    },
+    {
+      "path": "data/processed/sources/manifest.json",
+      "bytes": 4801,
+      "sha256": "1b783914bf7b4696479ce9e12da568cda23b4d9138b3dabe82791ef2a25f459c",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "docs/data.md",
+      "bytes": 5005,
+      "sha256": "a84f3840c0c830be09da107d096ad3890393d9ef1eb935050c20035a990dcc87",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "docs/experiments.md",
+      "bytes": 9302,
+      "sha256": "c533ee774a430c7c76a44cdf32447a568c1f6817bacb45fe7b8447fc88f5782b",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "docs/figures.md",
+      "bytes": 1857,
+      "sha256": "0ef7eb019c97d9b855ed430677c2699d5412ff834afc0ef0bc17ba186096f7ea",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "docs/file_inventory.tsv",
+      "bytes": 42807,
+      "sha256": "ee951bc4656ac8b89c6810c498e944af39d54ec18c18b3457304783128e4e947",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "docs/validation.md",
+      "bytes": 3740,
+      "sha256": "dada03526daa821a151f6a2fec5d0a01276fd16063c82c736a5005877f8f738c",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "docs/verification/atlas_input.json",
+      "bytes": 409,
+      "sha256": "20effd0f3422e5d4c4397e652159b28741c26e9cb340d7e7180ba19782d21866",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "docs/verification/atlas_smoke.json",
+      "bytes": 444,
+      "sha256": "024f99685732cccd9865748037688ad38f788f85a15c1406db0fd939e6994b81",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "docs/verification/atlas_statistics.json",
+      "bytes": 539,
+      "sha256": "a807e6497b8cfe05d3e9387e7007c481eaeed1dedf9496a55be77a8fe3ed714e",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "docs/verification/implementation.json",
+      "bytes": 1205,
+      "sha256": "842ff949b5a06b9dc0cc456870f0a81f2119f1bc321a81f97ba459be951feae8",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "docs/verification/representation_probes.json",
+      "bytes": 1537,
+      "sha256": "1714c116c459d77a0de633269e0dbf001ffc8f0c68e11cfdbad1ecafaae5686b",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "docs/verification/selected_panels.json",
+      "bytes": 442,
+      "sha256": "7207f4e7f90ba8ce506bc3bce2eb1a89ad6f6c4742c0651fbdf4d0b2b9af0609",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/adaptation/__init__.py",
+      "bytes": 70,
+      "sha256": "4f0bc9cc40f1891ad878b27b91ff41d411663f30f51b1178f90423e6b0c80ea5",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/adaptation/evaluate_fixed.py",
+      "bytes": 19589,
+      "sha256": "1c2f1ee8c32a5e844f734341a557dc6709e5ac6d3f18d7447227d2c071a571af",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/adaptation/features.py",
+      "bytes": 7844,
+      "sha256": "4623beb403983ef87ea6579fd64a8ae5bc949c334da3503f9c88a274596a7ae7",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/adaptation/model.py",
+      "bytes": 4696,
+      "sha256": "b12d5ad7a523003751ac5a4b694755c51fd55c157d935c43c796e5865b08b298",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/adaptation/ranking.py",
+      "bytes": 3333,
+      "sha256": "f431b24108ef91577ef97fbbf165c2a206c83ab835b19d653c856b0b96cb6fc8",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/adaptation/summarize.py",
+      "bytes": 10709,
+      "sha256": "6918d4441311de71d4948eafa1381febe2035faa800bd798fffd15d623f81869",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/adaptation/train.py",
+      "bytes": 11667,
+      "sha256": "555cf792561046e07b6fc4106fbbd562d97d2edc3f897d4eda38738f351d6574",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/atlas/README.md",
+      "bytes": 4487,
+      "sha256": "878dd3bbf7534cb0b9d94760e73fd6b7dc3c798c3d7daed234ddea2a27fe9a24",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/atlas/__init__.py",
+      "bytes": 46,
+      "sha256": "23684857bbc454e67e68a822c2418ba3daed79ce6d482435f1b58ee2a3bb0322",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/atlas/__main__.py",
+      "bytes": 2607,
+      "sha256": "13d76ef06ff74b7307a1e641310e5b602a97e8d8a5e63685b417baaf2dbb6552",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/atlas/analysis.py",
+      "bytes": 13513,
+      "sha256": "c167f0ca4103d4b0607ffd0560aec35d39ed74cfa75ad17fcd1b0d00e9380a14",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/atlas/fingerprints.py",
+      "bytes": 766,
+      "sha256": "4e7920940145153ab6c25aa4df88e5fdde1c51fa58ed1a85c37c3ea7f858a7d4",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/atlas/smoke.py",
+      "bytes": 3094,
+      "sha256": "e5a9f4243a205a08fa2a8736372bea6df4cc4b9c1e122c6625b47337aa04276e",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/atlas/source_provenance.json",
+      "bytes": 593,
+      "sha256": "74bf16c3f519e772bbc4c29731f01faacf2e7892b76194c1f21163d341182277",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/atlas/statistics.py",
+      "bytes": 4513,
+      "sha256": "d9fc6c6297da4b4b3ec151bd0529b22ec2eefe94b22894594721a3d0c59db1ea",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/atlas/validate.py",
+      "bytes": 5607,
+      "sha256": "7ba9b46d4c3bc7ae57689ebd1b9d33bcc972337f96ede6c57b35180ecaa464f8",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/backbone/__init__.py",
+      "bytes": 65,
+      "sha256": "43100afe39820459c34daba09b03e758461cfd409919151a4d9e852566399dde",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/backbone/data.py",
+      "bytes": 7041,
+      "sha256": "e44c4ecea65f90fe8d2b1eb0d7fe12e87a424e813d99d14608e5338335672086",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/backbone/evaluate.py",
+      "bytes": 5103,
+      "sha256": "93f00d366de331d89fcf4117862889f187afe2e29dfd49737352543001d7a489",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/backbone/model.py",
+      "bytes": 16273,
+      "sha256": "df3913f1cae0b9bfa0be1509ac8f561b1ce898abc5b7800f0e09e4ba2ff87de7",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/backbone/predict.py",
+      "bytes": 8627,
+      "sha256": "cb168213f5f4e33b636c5c10a3aa451f6fa70562690d1f5bb3e266bf10e1e780",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/backbone/train.py",
+      "bytes": 8085,
+      "sha256": "83ce3bec3f16c61f792ceef89e91783835cf556ba5cbce12ed606aae0df21ba9",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/__init__.py",
+      "bytes": 70,
+      "sha256": "60945d92cbfba2331af286c4eec2a8d2281cab68b2faa8dc7ae299e5c1df3f44",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/data.py",
+      "bytes": 1904,
+      "sha256": "d527dc13a75fafeb72d4adad67394b68edb010e5bc5c781c1fe421bb3bcbdd45",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/external.py",
+      "bytes": 12257,
+      "sha256": "490f801a7a229dda736c798e2002946eecff494e8f776fd0f09354fb4326f529",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/external_extra.py",
+      "bytes": 5655,
+      "sha256": "a7ba9fe4893ff35ae8b32c94f8d54b5b2934aa3b3931e2f3d60dc68950d2071f",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/g2cp/LICENSE",
+      "bytes": 1066,
+      "sha256": "955b9bcdc64d2fdddab7b959bc4cca37512407289932190396707fb741c678c2",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/g2cp/README.md",
+      "bytes": 3160,
+      "sha256": "e07f08b9ec63a7bc73f820bbfecb0437b705cccc73ad5d7b079fa620702295e1",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/g2cp/__init__.py",
+      "bytes": 64,
+      "sha256": "e571fb558729629b8e8c9732a8cb73f5f4f00f27e0fbe0364099ff6ca3f17ab3",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/g2cp/author/__init__.py",
+      "bytes": 76,
+      "sha256": "af3cf1a2a3f759a60e287c57213088913a03bda554d1476e4c51a4f7e65ba9db",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/g2cp/author/model.py",
+      "bytes": 8326,
+      "sha256": "8f932797235e4ed2b7fd610fc379c73fe07198823ce17e67067bcf4a9d3e4b3a",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/g2cp/author/utils.py",
+      "bytes": 2027,
+      "sha256": "e8a731a8db9aa9338d2b820b23d75df63477e87537609e6af2478d2a48cdbdd5",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/g2cp/budget_verification.json",
+      "bytes": 2882,
+      "sha256": "dbbdb0fd52389154edc81e80077cb506db09be78f6958dc6ef79368d5b234636",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/g2cp/fast_forward.py",
+      "bytes": 2293,
+      "sha256": "59db03f0cf671613558b875b260937d63f411d459b0151a14e1c74b1cc9fa3fe",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/g2cp/helpers.py",
+      "bytes": 6310,
+      "sha256": "0d2bc9c52cf17316210a391c78e627de4bbf666f0ba944de7ff8628070a877c0",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/g2cp/run.py",
+      "bytes": 6204,
+      "sha256": "96e13676603143804bcc18a206dde2ee8ac46fc2535f3e18b4c645df3f21c28a",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/g2cp/smoke_verification.json",
+      "bytes": 335,
+      "sha256": "2c032f51da77ef56c9b46b127385df8ce271907373fb2172c87b224f70df43f3",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/g2cp/source_provenance.json",
+      "bytes": 717,
+      "sha256": "65a16f4c5ec0b59098be4265f596414970a624985a48d59636b1282e9b8c9235",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/g2cp/verification.json",
+      "bytes": 378,
+      "sha256": "c950566e2f971d581bffdb2a812da23d67b96c87b44201191315882cbaa75925",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/g2cp/verify_forward.py",
+      "bytes": 2406,
+      "sha256": "e9ed611e4119c971cac3262d6c2d21c99cc1896383931e9e7e03e8318f311fae",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/hypermap/LICENSE",
+      "bytes": 1094,
+      "sha256": "f30433566253fba1cca2ebeb9d4adab7f66d230ea3e8ac5e81a7923f8c567b13",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/hypermap/README.md",
+      "bytes": 1863,
+      "sha256": "54baf4dbb1cb326d108b83852468d79acc56fee02b9d4fbc4a6927f3be0e142e",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/hypermap/__init__.py",
+      "bytes": 61,
+      "sha256": "af02c68814a2e1da17ca444d94973d3a2f1c9d4a6b34d7bf80dbd55fe30fa347",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/hypermap/author_model.py",
+      "bytes": 5516,
+      "sha256": "adeac4f7ae019f0abd87a6f41dcdeff0aac1ec220202c72767b1961ae693756b",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/hypermap/fit.py",
+      "bytes": 10513,
+      "sha256": "a62ee37b11f42489d8a091b2694dec2d86481428eaf46a8b5c349285b4090013",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/hypermap/fixed_protocol.json",
+      "bytes": 258352,
+      "sha256": "0d0dfc566ef1cf6273749c4afe66263d8a9065f60b01a677e534ff4bbbb9a512",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/hypermap/helpers.py",
+      "bytes": 3703,
+      "sha256": "450241fd041c66a5d8b764ffe00b310f06ea8f7d081b8640c30242a609f60d57",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/hypermap/run.py",
+      "bytes": 5003,
+      "sha256": "72309c9b8f426222bf0135016fc5e6dae8fcb7896bb36196849782e4e2fdbf2c",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/hypermap/source_provenance.json",
+      "bytes": 474,
+      "sha256": "d694260b446979d988a214a57e254b8d9a404ce40c62a0faba61742b814c4c58",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/hypermap/verification.json",
+      "bytes": 526,
+      "sha256": "34e8e7ac555daf4b709f341b520b067fdb7613bd1a901e2d9fccbc0dd4fdbf10",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/internal.py",
+      "bytes": 15389,
+      "sha256": "5f29676e538178a29a3f444ce2c5fd9523207beb403e2d9df6f6696539d0ba8d",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/models.py",
+      "bytes": 12106,
+      "sha256": "18f663406437e6340e6913f035ed71222a1819c6d7c3d8fa108b8687d950f084",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/comparisons/run.py",
+      "bytes": 9938,
+      "sha256": "78f440ebb99e975917e134611ace65848ed4f12b01f9d68e2e8288786ff53111",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/diagnostics/README.md",
+      "bytes": 2865,
+      "sha256": "82138433af48bbe0758172275f50ca87c2b4b001c235f942b09812e5e0ad05ea",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/diagnostics/__init__.py",
+      "bytes": 70,
+      "sha256": "b6aeb5c2933585a79fd9130094042c9c5ba5f52b21ab3aaae96993ea24eeaa69",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/diagnostics/evaluate.py",
+      "bytes": 9563,
+      "sha256": "4c0ac6661254010d8e6dd3a636c519c7bd3f16496ec571c5291b0063df2ec975",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/diagnostics/interfaces.py",
+      "bytes": 19172,
+      "sha256": "5377a3e80cfeab631ff89a2e341a94b57a500a452f2fb20609fb2a7779c806c3",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/diagnostics/probes.py",
+      "bytes": 16313,
+      "sha256": "64764f8e06ef52f909270bed4cdc10e27e1c1aaa10758dbfb564198be7b50ae2",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/diagnostics/train.py",
+      "bytes": 10496,
+      "sha256": "644577a9252b7d31c9e77e525211d1f99cb4f7d954bda6bdcb657e609942b2ae",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/ipsc/README.md",
+      "bytes": 4575,
+      "sha256": "42397cebc1c92421d09ed0c6a04ce96f9ef74936ddb77efe373c529eb018b259",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/ipsc/analyze_correspondence.py",
+      "bytes": 8432,
+      "sha256": "15c75150dd23f737c45446d1cdb823bfee52e349d501530bfd0bc0e948d11a4c",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/ipsc/predict.py",
+      "bytes": 7886,
+      "sha256": "185ea745fd31c91d60174077e2cc375c797c03166bda6444a63886208fbecfff",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/ipsc/prepare_input.py",
+      "bytes": 3100,
+      "sha256": "7e15ff8c1856bcfc8e9aecf3502e8caa61ec1fa4a00d4517e23b4b2f114f2fc8",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/ipsc/preprocess/aggregate_alias_targets.py",
+      "bytes": 2976,
+      "sha256": "7db1a0d4c6a4ab2e8c374c719baccc2bdc4dafcc7611cee9d1c8f9dca70e4816",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/ipsc/preprocess/aggregate_counts.py",
+      "bytes": 8180,
+      "sha256": "734f9aeccaf66e12156028dbd30eb653608043a617313953b9c04380217e51f7",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/ipsc/preprocess/output_genes_976.npy",
+      "bytes": 39168,
+      "sha256": "0054257de59fc1932361e6b7e192fcd42fdcf1f357f150e143ae62abdc584cac",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/ipsc/preprocess/stream_counts.cpp",
+      "bytes": 4299,
+      "sha256": "ebc9bfaeb01ad71bb5fe5257e0dc70b90b819ab3d9ac93d18ceb2f90297e3cbf",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/ipsc/preprocess/verification.json",
+      "bytes": 1518,
+      "sha256": "00203ad549100c26c30309ef100bf09b468db829b3fc399da3611b03264c0708",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/ipsc/preprocess/verified_target_aliases.csv",
+      "bytes": 298,
+      "sha256": "52eccde72efeb4e2137ec4b1ee8cc2ee5e79b58a31ba1f8e3aa13710d32227ca",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/ipsc/preprocess/wanted_alias_symbols.txt",
+      "bytes": 24,
+      "sha256": "f1b4198552981f97f28a75724fe64cd16ad7b8e9f891465d8eef0c4fb24c6760",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/ipsc/preprocess/wanted_gene_symbols.txt",
+      "bytes": 8581,
+      "sha256": "73cd313c5ec02ed8de1111e6b4b943ab682ea23cd7d82e8b936bab6cb3dbe25c",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/ipsc/raw_data_manifest.json",
+      "bytes": 1070,
+      "sha256": "f7a1ed74e8b0e8f427c34de97f5a66b2677ac386073c9686584fc738c88cb766",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/ipsc/verification.json",
+      "bytes": 710,
+      "sha256": "c22345b440681f10f3263e782a49bba0403d7fd1b6b434a07a28001ce08a72e8",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "experiments/metrics.py",
+      "bytes": 2544,
+      "sha256": "5b2df998621b6f3b4e4f3bc07b63e5b07a9bc6d996ff673ddc62483e68a7ed43",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure1/provenance.json",
+      "bytes": 770,
+      "sha256": "86e905fca64fccf2b99bf9e1e7e055f69bc2d582b1d67da975f7eb6a0629c7dd",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure1/run.py",
+      "bytes": 5133,
+      "sha256": "724e76e02cf177dfa5218bcc72ecd161af31a5f2fc43589b54f091d0bb121d3f",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure1/source_data/01_transfer_summary.csv",
+      "bytes": 174,
+      "sha256": "d96375e4ed8a570848f42eef2381b6737121fadb68ee6a06ca447f73d5ecfe93",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure1/source_data/arrays.npz",
+      "bytes": 1125181,
+      "sha256": "63db10570979df4e07264c19b980db964853672ce607f643e6df7034297b7321",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure1i/code/draw_joint_modulation.py",
+      "bytes": 4426,
+      "sha256": "caad3c3ac30df64531abde9ef3e8d5e64898690f601d741ee48ff3d6bf0fc1f1",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure1i/provenance.json",
+      "bytes": 389,
+      "sha256": "cdc4d69336f4fc67283cda3a1952bdcc641f573ca9bcd8edeafb8c7268e99faf",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure1i/source_data/frozen_ablation_cell_means.csv",
+      "bytes": 7353,
+      "sha256": "18bcd2c11bd0fb708767fead89d5f4ace92f007f260dc4fd96c3442d36608709",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure1i/source_data/frozen_ablation_paired_contrasts.csv",
+      "bytes": 2455,
+      "sha256": "133d9a5143340dc7a10b8e15a10425d5740130034f4e16093f0ecd4e85591bd1",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure2/README.md",
+      "bytes": 217,
+      "sha256": "0813723b6270e67514a13bfbe6e23565557bbad4d3add1af55c6a14942a4ba1f",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure2/code/panel_export.py",
+      "bytes": 1713,
+      "sha256": "341bac28fa1094eb4dad760d21e3588a9690d5c81c9d176c1ae15f61e68631c4",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure2/code/render.py",
+      "bytes": 1898,
+      "sha256": "a0e517b55cc7f20506c8df4e79b50d181c033da0cbd4bc1cfb08b20d01ecc902",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure2/provenance.json",
+      "bytes": 370,
+      "sha256": "49b7137d1b8293c9991c104923e81335079034d6aa228a0ce8e06817b5f30daa",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure2/run.py",
+      "bytes": 434,
+      "sha256": "cd4a87622a23a1e1545f0fd69868fb0dd9f8bc2ed0d1fccdef8992da2af2a777",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure2/source_data/drug_gain.csv",
+      "bytes": 630742,
+      "sha256": "e3027552b51a67e83f8d59aab7b52bf573e3e552b0e329664d80973d74a2e9c4",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure2b/code/draw_main_grids.py",
+      "bytes": 9321,
+      "sha256": "1d9c97e22124c320be4bc88982c69c091c6debeafecc808ad6cf192a78c4d595",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure2b/code/render_figures.py",
+      "bytes": 2529,
+      "sha256": "2e0bf5e6616ccc7ac8bf1a94320e41fac6242276ecee655c5b5627c091e92ee5",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure2b/code/score_predictions.py",
+      "bytes": 2607,
+      "sha256": "eb640d684bfeeb1c52f759e4a0e4087996533473621c201488f6ed3bbc85968d",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure2b/figure_contract.json",
+      "bytes": 1894,
+      "sha256": "564ba977a6e4231e359d7169e45708c7c3e3e0a9223cbc479e67238058accb92",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure2b/provenance.json",
+      "bytes": 2319,
+      "sha256": "2d7d17e5e1b20c7f888e504ea3fa983c87e81b689b2a222b3f4a1f5fdeaecf7c",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure2b/source_data/F2b_overall_ranking.csv",
+      "bytes": 987,
+      "sha256": "d94b766c1bd701d3dbc2dfd523f7771463c30b9337ea979a658e96da8c9a99e2",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure2b/source_data/frozen_reference_metrics.json",
+      "bytes": 3546,
+      "sha256": "d8d5890dd8d57df5e01c86789808af82c9222d529971ed06d733589c406865d6",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure2b/source_data/input_scored_runs.csv",
+      "bytes": 135981,
+      "sha256": "d32f9e653eba9c07411069156e39836fdb94bd2b7639c96e51590480896bd552",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure2b/source_data/label_to_configuration.csv",
+      "bytes": 605,
+      "sha256": "7179d1adb8d90cf249742385dd1cc6b5eaa7310758731290f6cb199361c85832",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure2b/source_data/method_conditions.csv",
+      "bytes": 6371,
+      "sha256": "92aef70d2a8bc97863b2ec6a5741aa3b6d47389e1bc96bb889e5cdc8310149ea",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure3/code/draw_figure3.py",
+      "bytes": 12145,
+      "sha256": "7c179f53120dc58106a7b11ba47ac0ea14b3ef49ffeca6adcac55f5941e2aec4",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure3/provenance.json",
+      "bytes": 1271,
+      "sha256": "47356a5322a5b4b9a1a67d62f13400f2949bc2b3c3a262ba7e9f30c808bd9ee5",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure3/source_data/b_benchmark.csv",
+      "bytes": 4683,
+      "sha256": "05ca80ac5959fbe2631b6916b8c72e53694a9a7eadc534375a23c9da34a8fe05",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure3/source_data/b_gains.csv",
+      "bytes": 568,
+      "sha256": "2e007632a4ca1dac0ff6342463611a2755f48ee0dad965aecf982877f4d60eff",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure3/source_data/b_points.csv",
+      "bytes": 7909,
+      "sha256": "841c70ca64a4783d0ab622e323a41e9649b617ebc48dcf5c109b3d0d06ed2d08",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure3/source_data/b_run_metrics.csv",
+      "bytes": 44035,
+      "sha256": "45dad162d3469ba7adf0f381c82766e7d4e7b7e66033baa1b14fb3040e299a49",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure3/source_data/c_metric_ranks.csv",
+      "bytes": 415,
+      "sha256": "8a898233f73cc23084d0cc1361825daedd0418775a8d419464e8f2494f8a1dd1",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure3/source_data/c_metric_values.csv",
+      "bytes": 2528,
+      "sha256": "46deaa10d00faa014395a84fc0783d82b2cd7ac95ac4558ad41bdc0b81f293a7",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure3/source_data/c_normalized_cells.csv",
+      "bytes": 36317,
+      "sha256": "1fc9fc120374de23c7ef89093ecede688cf1239ab2049523f7863c79b6bd0a3c",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure3/source_data/c_overall_ranking.csv",
+      "bytes": 462,
+      "sha256": "62b3a90ffb44da91f6089e70054218d2f1e8543a5b0954aa31441da05c5ce080",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure3/source_data/manifest.json",
+      "bytes": 4611,
+      "sha256": "1b10ba9788e6b8adbf506f37646bce225ad6d7f1c685eec950d748b767bc115c",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure4/README.md",
+      "bytes": 684,
+      "sha256": "e07cf22836948db1197657f1bd6b184583b76a371f0bc773812ff2f528bed243",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure4/code/render.py",
+      "bytes": 13710,
+      "sha256": "55e6835be0209330e57df48d591a871bc66ee966fdb04400b40c3038099c751b",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure4/input_manifest.json",
+      "bytes": 749,
+      "sha256": "0cb3514552497dd569fd70432fb93e84dff0e261dd81344f1761630422091f77",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure4/provenance.json",
+      "bytes": 541,
+      "sha256": "bc2e06bdf0f89e5428008e78ca4f8003200abf67b203d92be60f5d3369326a98",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure4/source_data/budget_summary.csv",
+      "bytes": 3965,
+      "sha256": "f038087887f6300cd8179d4dc7c020e0ba742c5aaa94b63949dcbf9767b2f38c",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure4/source_data/mechanism_paired_tests.csv",
+      "bytes": 5537,
+      "sha256": "9b741c44effa624c4830fe0cc026662f7fbf73ff1c59acfca99eb5381caeba9a",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure4/source_data/primary_metric_summary.csv",
+      "bytes": 6941,
+      "sha256": "5bf1a6e6be5cae4481edca54695f2dfd09ffde11772e4a98bed0f442ce685d69",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure4/source_data/ranking_contract.json",
+      "bytes": 478,
+      "sha256": "320d9557deba081f7eb760e6555464812ebeb541d4dadaa14f42d5474e3de589",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure5/README.md",
+      "bytes": 467,
+      "sha256": "89f0d50fb04d7fc0027efc98e3528d75a72f0229f414fc847e5cb9e3369d770d",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure5/code/render.py",
+      "bytes": 11351,
+      "sha256": "e7e6f1bc5100786912d4a1de334d59f6501f53f8132725b7f16a11a562a24b8d",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure5/input_manifest.json",
+      "bytes": 581,
+      "sha256": "b648871bc2fee4a8aaedc49ffc89b4a44eb790b782c0da9dd734f57eda47d5f7",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure5/provenance.json",
+      "bytes": 534,
+      "sha256": "abf31e8ef8785be81a0ab1c8dbe22d1c9abeed653357ff2868dff9608d84a1f6",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure5/source_data/chemical_catalog.csv",
+      "bytes": 691387,
+      "sha256": "57c53080cded16896d7ff49cc0982ea3726979f551b12ed0957df88d0076c275",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure5/source_data/disjoint_class_correlations.csv",
+      "bytes": 13963,
+      "sha256": "10886025b7bc90e45bdd1749dcb8fd8584504742a6cfecef408a37354d62acd2",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure5/source_data/umap_coordinates.csv.gz",
+      "bytes": 1986188,
+      "sha256": "66b0a4fc4d6c21f45040a9ef2bfa3af45284e1346bdce234cb55d4cd94e66506",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure6/README.md",
+      "bytes": 331,
+      "sha256": "391eccedfb06ad59477bfa0e30ae41c812e67545ab1e67df6d3c5eeb84502a81",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure6/code/panel_export.py",
+      "bytes": 1713,
+      "sha256": "341bac28fa1094eb4dad760d21e3588a9690d5c81c9d176c1ae15f61e68631c4",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure6/code/render.py",
+      "bytes": 2743,
+      "sha256": "4a442fa389ac98a21b211e7ee81b175acc9ca7b386b9fa55b3b3117f7aa5d68e",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure6/provenance.json",
+      "bytes": 512,
+      "sha256": "e2ec7ba22b23c4dde4e74e98c26d66fbcc54b80b7d9905800adfe96a6b84f76b",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure6/run.py",
+      "bytes": 434,
+      "sha256": "5722d7055b7b02e4d94d671f712e2b2df479bd72b321b68049748fc90c03d453",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure6/source_data/GR_family_ROS_raw.csv",
+      "bytes": 11410,
+      "sha256": "dbcb7f0f348b7f10f085cbc6fa68a6ee08a0992e02e55467feaa3d319da74f1f",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure6/source_data/summary.json",
+      "bytes": 89,
+      "sha256": "db17afbd2f20ee00e4d27725dc5eebcf7966758a18a0c192b5f83c5538d939f7",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure7/README.md",
+      "bytes": 1243,
+      "sha256": "282accf3b9e09beeb78f9829519d17b0b9c07c89cca7658eb2abd582c0224757",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure7/code/draw_response_correspondence.py",
+      "bytes": 9096,
+      "sha256": "f346a9f166973693cee93107990e0226078fba1edfddcf2d82ccd9d2aec9c10e",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure7/run.py",
+      "bytes": 2056,
+      "sha256": "11eb33068f66d3cff9ef622f4f1f88a699336ae414bafbd82beeda808099fad6",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure7/source_data/all235_evaluation_and_retention.csv",
+      "bytes": 188189,
+      "sha256": "310dfec8a36364a0cd908814045cc345811cc7f44ae696df47983842396cb44a",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure7/source_data/examples/recommended_four_drugs.csv",
+      "bytes": 2028,
+      "sha256": "27bbfea2f99a10c1f9c6d3199d4bb9bd172fd1e21b1318710012975b81cc7426",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure7/source_data/examples/recommended_four_plot_points.csv",
+      "bytes": 3902,
+      "sha256": "6763bbfef273ca4f9799c03378eb105b3d230848591e93a1dd3cdbdcdbd8279e",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure7/source_data/moa/plot_moa8_consistent_members_common_lines.csv",
+      "bytes": 2861,
+      "sha256": "70dad6d3a4afece396105b2ab52ace5704587334e0ad5243985d7de8ede218ff",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure7/source_data/moa/plot_moa8_member_drugs_common_lines.csv",
+      "bytes": 28559,
+      "sha256": "713b4b785235a8299b30f9d1e529c8d9088b0775a2c091ece486a8ccc80c96fc",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure7/source_provenance.json",
+      "bytes": 2312,
+      "sha256": "e7b18abfd941b45e599e00a5431b78e68ec716870aa51081795a7f4c25c6b5ee",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/figure_tasks.json",
+      "bytes": 4779,
+      "sha256": "f2770ad36a0153d59349f0efc5099e440812e321e60d0f86f49155ed93a2b76e",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/supplementary/provenance.json",
+      "bytes": 527,
+      "sha256": "ad30dd6edcb16c098f70815c2180c8d0cbb6d0a774f8b99cd2a219936bd79be7",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "figures/supplementary/run.py",
+      "bytes": 4485,
+      "sha256": "23123e739333805df218320cf6e89012432c84312d3e40887946d652b89b61e7",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "requirements-test.txt",
+      "bytes": 34,
+      "sha256": "1438527233ce7beb1cdf4a046b8b5d38f140bd77217ef4df17d5592989d3ec15",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 335,
+      "sha256": "b0be8f0faba2c7111b915c8d98f4b0dd74df79a01e855998f24b2dab9352970b",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "run.py",
+      "bytes": 4491,
+      "sha256": "54d95e0acaff3636b4ffecb0a997b79cb4d5aa470ac425d91a8a5bec4faa4fbf",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "tests/test_paper_contracts.py",
+      "bytes": 1146,
+      "sha256": "3b8d6eaadf2a0a4a10eb417773e85cb85e26e870d61f72cd03796981ad76b213",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "tools/__init__.py",
+      "bytes": 49,
+      "sha256": "7e1132a47cfe40f3037f5ca8df1a502b0acd25bf5d150c73fc97622be1d94029",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "tools/export_checkpoint.py",
+      "bytes": 8071,
+      "sha256": "93527f7333e987d1c2f88a19e565dfb014b20235dadeb843e7ad20605cf0aba4",
+      "distribution": "代码仓库文件"
+    },
+    {
+      "path": "tools/verify.py",
+      "bytes": 3490,
+      "sha256": "c9664b543f28c1d402303e0db1a74ef41860565557e71017f45f747ce4dfac07",
+      "distribution": "代码仓库文件"
+    }
+  ]
+}

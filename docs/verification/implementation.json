@@ -1,0 +1,38 @@
+{
+  "baseline_implementation_checks": 79,
+  "core_training": "source isolation, references, episodes, initialization, loss, gradients and short trajectories matched",
+  "full_cpu_training_and_export": {
+    "context": "A375",
+    "seed": 52,
+    "steps": 200,
+    "query_drugs": 644,
+    "export_vs_direct_prediction_max_abs_error": 0
+  },
+  "diagnostics": {
+    "context": "A375",
+    "seed": 52,
+    "rows": 68,
+    "portable_vs_author_cpu_max_abs_error": 0
+  },
+  "capacity": {
+    "configurations_checked": 6,
+    "initialization_forward_gradient_and_short_trajectory_max_abs_error": 0,
+    "full_cpu_configuration": "width32",
+    "full_cpu_weights_and_predictions_max_abs_error": 0
+  },
+  "interfaces": {
+    "configurations_checked": 18,
+    "initialization_forward_gradient_and_optimizer_max_abs_error": 0,
+    "full_cpu_configuration": "attn_set",
+    "full_cpu_weights_and_predictions_max_abs_error": 0,
+    "max_r20_difference_from_frozen_gpu": 3.25e-05
+  },
+  "representation_probes": {
+    "context": "A375",
+    "seed": 52,
+    "rows_checked": 16,
+    "max_r20_difference_from_frozen": 4.59e-09,
+    "max_mse_difference_from_frozen": 5.32e-08
+  },
+  "complete_training_grids_rerun": false
+}

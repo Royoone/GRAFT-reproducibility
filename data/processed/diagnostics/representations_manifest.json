@@ -1,0 +1,124 @@
+{
+  "file": "representations.npz",
+  "sha256": "83f1a8a728853a6825fc34725f11f1f0a6727f4de8dd2f9b901c5edb52e4c4b2",
+  "bytes": 37330881,
+  "logical_author_source": "results/44_wp7/reps/base.npz",
+  "arrays": {
+    "names": {
+      "shape": [
+        3220
+      ],
+      "dtype": "<U13",
+      "finite_rows": null
+    },
+    "queries": {
+      "shape": [
+        644
+      ],
+      "dtype": "<U13",
+      "finite_rows": null
+    },
+    "unipert": {
+      "shape": [
+        3220,
+        256
+      ],
+      "dtype": "float64",
+      "finite_rows": 3220
+    },
+    "ecfp": {
+      "shape": [
+        3220,
+        2048
+      ],
+      "dtype": "float32",
+      "finite_rows": 3220
+    },
+    "ecfp_ok": {
+      "shape": [
+        3220
+      ],
+      "dtype": "bool",
+      "finite_rows": null
+    },
+    "random256": {
+      "shape": [
+        3220,
+        256
+      ],
+      "dtype": "float64",
+      "finite_rows": 3220
+    },
+    "shuffle_unipert": {
+      "shape": [
+        3220,
+        256
+      ],
+      "dtype": "float64",
+      "finite_rows": 3220
+    },
+    "esm_mean": {
+      "shape": [
+        3220,
+        1280
+      ],
+      "dtype": "float64",
+      "finite_rows": 1714
+    },
+    "pseaac_mean": {
+      "shape": [
+        3220,
+        23
+      ],
+      "dtype": "float64",
+      "finite_rows": 1714
+    },
+    "onto_mean": {
+      "shape": [
+        3220,
+        1024
+      ],
+      "dtype": "float64",
+      "finite_rows": 1714
+    },
+    "protbert_mean": {
+      "shape": [
+        3220,
+        1024
+      ],
+      "dtype": "float64",
+      "finite_rows": 1714
+    },
+    "esm_mean_ok": {
+      "shape": [
+        3220
+      ],
+      "dtype": "bool",
+      "finite_rows": null
+    },
+    "pseaac_mean_ok": {
+      "shape": [
+        3220
+      ],
+      "dtype": "bool",
+      "finite_rows": null
+    },
+    "onto_mean_ok": {
+      "shape": [
+        3220
+      ],
+      "dtype": "bool",
+      "finite_rows": null
+    },
+    "protbert_mean_ok": {
+      "shape": [
+        3220
+      ],
+      "dtype": "bool",
+      "finite_rows": null
+    }
+  },
+  "scope": "Frozen adopted FS2f/g identity representations; original random and shuffled arrays retained.",
+  "query_contract": "3220 shared drugs; fixed644 SHA-256-ordered query IDs; the2576 remaining drugs are ridge/projection support.",
+  "identity_preprocessing": "Original support-only PCA and original nonfinite-row handling are applied by experiments.diagnostics.probes; input values are not regenerated."
+}

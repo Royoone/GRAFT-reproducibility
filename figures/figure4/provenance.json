@@ -1,0 +1,14 @@
+{
+  "scope": [
+    "F4b",
+    "F4c",
+    "F4f"
+  ],
+  "original_input_sha256": {
+    "primary_metric_summary.csv": "5cb9e8b05998fd7ae491ec361ffc215df55c1737081bd1d7113099e8da8a9959",
+    "budget_summary.csv": "8dc19d1bae1318f11123416ec00878b595a6e1abaeaab173b337d8b21b1c7b2b",
+    "mechanism_paired_tests.csv": "9b741c44effa624c4830fe0cc026662f7fbf73ff1c59acfca99eb5381caeba9a"
+  },
+  "projection": "Original numeric strings retained; unused records/columns and unrelated figure inputs removed.",
+  "scientific_algorithms_unchanged": true
+}

@@ -1,0 +1,257 @@
+moa1,moa2,mode,n1,n2,r
+MEK,MEK,Atlas13,21,21,1.0
+MEK,PI3K,Atlas13,21,39,0.9148927931741287
+MEK,mTOR,Atlas13,21,32,0.8933810599397072
+MEK,HDAC,Atlas13,21,35,0.7720933156107873
+MEK,Topoisomerase,Atlas13,21,49,0.7994005084237719
+MEK,Proteasome,Atlas13,21,7,0.5285727993241468
+MEK,CDK,Atlas13,21,29,0.7637308530811493
+MEK,EGFR,Atlas13,21,46,0.8744501182660211
+MEK,Tubulin,Atlas13,21,30,0.48673437810083964
+MEK,HSP inhibition,Atlas13,21,18,0.7802130319912075
+MEK,Glucocorticoid,Atlas13,21,83,0.6932885926573159
+MEK,Estrogen agonist,Atlas13,21,47,0.6502884868408261
+MEK,Estrogen antagonist,Atlas13,21,21,0.8804902612635792
+MEK,Retinoid,Atlas13,21,21,0.7735560596392467
+MEK,Dopamine antagonist,Atlas13,21,81,0.7535084331722738
+MEK,Serotonin antagonist,Atlas13,21,93,0.7298878688881824
+PI3K,MEK,Atlas13,39,21,0.9148927931741287
+PI3K,PI3K,Atlas13,39,39,1.0
+PI3K,mTOR,Atlas13,30,23,0.9661206340765746
+PI3K,HDAC,Atlas13,39,35,0.7701188966859485
+PI3K,Topoisomerase,Atlas13,39,49,0.8431888013616093
+PI3K,Proteasome,Atlas13,39,7,0.5888077778739775
+PI3K,CDK,Atlas13,39,29,0.8135158446946957
+PI3K,EGFR,Atlas13,39,46,0.9143595398101241
+PI3K,Tubulin,Atlas13,39,30,0.6046657989548779
+PI3K,HSP inhibition,Atlas13,39,18,0.766730267256194
+PI3K,Glucocorticoid,Atlas13,39,83,0.7484428875732391
+PI3K,Estrogen agonist,Atlas13,39,47,0.7402728661428667
+PI3K,Estrogen antagonist,Atlas13,39,21,0.9163364607817203
+PI3K,Retinoid,Atlas13,39,21,0.849486478330449
+PI3K,Dopamine antagonist,Atlas13,39,81,0.8258849284859413
+PI3K,Serotonin antagonist,Atlas13,39,93,0.8068715944250535
+mTOR,MEK,Atlas13,32,21,0.8933810599397072
+mTOR,PI3K,Atlas13,23,30,0.9661206340765746
+mTOR,mTOR,Atlas13,32,32,0.9999999117421586
+mTOR,HDAC,Atlas13,32,35,0.730753007895457
+mTOR,Topoisomerase,Atlas13,32,49,0.7749800866367693
+mTOR,Proteasome,Atlas13,32,7,0.5708589879148928
+mTOR,CDK,Atlas13,32,29,0.7389957376264659
+mTOR,EGFR,Atlas13,32,46,0.8705413494460398
+mTOR,Tubulin,Atlas13,32,30,0.5585397359639994
+mTOR,HSP inhibition,Atlas13,32,18,0.750923618852083
+mTOR,Glucocorticoid,Atlas13,32,83,0.6812502141509978
+mTOR,Estrogen agonist,Atlas13,32,47,0.6674144592963879
+mTOR,Estrogen antagonist,Atlas13,32,21,0.8737316261100088
+mTOR,Retinoid,Atlas13,32,21,0.8020850770318249
+mTOR,Dopamine antagonist,Atlas13,32,81,0.7582987002081429
+mTOR,Serotonin antagonist,Atlas13,32,93,0.7369052704948001
+HDAC,MEK,Atlas13,35,21,0.7720933156107873
+HDAC,PI3K,Atlas13,35,39,0.7701188966859485
+HDAC,mTOR,Atlas13,35,32,0.730753007895457
+HDAC,HDAC,Atlas13,35,35,1.0000000758562924
+HDAC,Topoisomerase,Atlas13,35,49,0.7620458947312138
+HDAC,Proteasome,Atlas13,35,7,0.6573469331961842
+HDAC,CDK,Atlas13,35,29,0.715737664132571
+HDAC,EGFR,Atlas13,35,46,0.7665801633779475
+HDAC,Tubulin,Atlas13,35,30,0.5446259629791472
+HDAC,HSP inhibition,Atlas13,35,18,0.6686847278622878
+HDAC,Glucocorticoid,Atlas13,35,83,0.5893202127610241
+HDAC,Estrogen agonist,Atlas13,35,47,0.5815633511625592
+HDAC,Estrogen antagonist,Atlas13,35,21,0.7572187766820128
+HDAC,Retinoid,Atlas13,35,21,0.6877616738825612
+HDAC,Dopamine antagonist,Atlas13,35,81,0.6557247848329426
+HDAC,Serotonin antagonist,Atlas13,35,93,0.636767277364486
+Topoisomerase,MEK,Atlas13,49,21,0.7994005084237719
+Topoisomerase,PI3K,Atlas13,49,39,0.8431888013616093
+Topoisomerase,mTOR,Atlas13,49,32,0.7749800866367693
+Topoisomerase,HDAC,Atlas13,49,35,0.7620458947312138
+Topoisomerase,Topoisomerase,Atlas13,49,49,1.0
+Topoisomerase,Proteasome,Atlas13,49,7,0.617155183876922
+Topoisomerase,CDK,Atlas13,49,29,0.9539568919446196
+Topoisomerase,EGFR,Atlas13,49,46,0.797751819777311
+Topoisomerase,Tubulin,Atlas13,49,30,0.6166535611301637
+Topoisomerase,HSP inhibition,Atlas13,49,18,0.6922668261562999
+Topoisomerase,Glucocorticoid,Atlas13,49,83,0.6687168500737125
+Topoisomerase,Estrogen agonist,Atlas13,49,47,0.6729006781726117
+Topoisomerase,Estrogen antagonist,Atlas13,49,21,0.7776746104101442
+Topoisomerase,Retinoid,Atlas13,49,21,0.7568459233909428
+Topoisomerase,Dopamine antagonist,Atlas13,49,81,0.7269551651390784
+Topoisomerase,Serotonin antagonist,Atlas13,49,93,0.7134155850200158
+Proteasome,MEK,Atlas13,7,21,0.5285727993241468
+Proteasome,PI3K,Atlas13,7,39,0.5888077778739775
+Proteasome,mTOR,Atlas13,7,32,0.5708589879148928
+Proteasome,HDAC,Atlas13,7,35,0.6573469331961842
+Proteasome,Topoisomerase,Atlas13,7,49,0.617155183876922
+Proteasome,Proteasome,Atlas13,7,7,1.0000000962197197
+Proteasome,CDK,Atlas13,7,29,0.5811214684249802
+Proteasome,EGFR,Atlas13,7,46,0.5883026236846113
+Proteasome,Tubulin,Atlas13,7,30,0.6730636523926843
+Proteasome,HSP inhibition,Atlas13,7,18,0.7040149054586183
+Proteasome,Glucocorticoid,Atlas13,7,83,0.3933790725985433
+Proteasome,Estrogen agonist,Atlas13,7,47,0.4138480498345457
+Proteasome,Estrogen antagonist,Atlas13,7,21,0.5434859445179837
+Proteasome,Retinoid,Atlas13,7,21,0.5774386408557529
+Proteasome,Dopamine antagonist,Atlas13,7,81,0.4387965162975819
+Proteasome,Serotonin antagonist,Atlas13,7,93,0.42353487614216717
+CDK,MEK,Atlas13,29,21,0.7637308530811493
+CDK,PI3K,Atlas13,29,39,0.8135158446946957
+CDK,mTOR,Atlas13,29,32,0.7389957376264659
+CDK,HDAC,Atlas13,29,35,0.715737664132571
+CDK,Topoisomerase,Atlas13,29,49,0.9539568919446196
+CDK,Proteasome,Atlas13,29,7,0.5811214684249802
+CDK,CDK,Atlas13,29,29,1.0
+CDK,EGFR,Atlas13,29,46,0.7627436485677139
+CDK,Tubulin,Atlas13,29,30,0.5688733263814485
+CDK,HSP inhibition,Atlas13,29,18,0.6440310528646681
+CDK,Glucocorticoid,Atlas13,29,83,0.650767840366981
+CDK,Estrogen agonist,Atlas13,29,47,0.651008757213816
+CDK,Estrogen antagonist,Atlas13,29,21,0.748705233710782
+CDK,Retinoid,Atlas13,29,21,0.722082386477543
+CDK,Dopamine antagonist,Atlas13,29,81,0.7020461747208389
+CDK,Serotonin antagonist,Atlas13,29,93,0.6901788416666633
+EGFR,MEK,Atlas13,46,21,0.8744501182660211
+EGFR,PI3K,Atlas13,46,39,0.9143595398101241
+EGFR,mTOR,Atlas13,46,32,0.8705413494460398
+EGFR,HDAC,Atlas13,46,35,0.7665801633779475
+EGFR,Topoisomerase,Atlas13,46,49,0.797751819777311
+EGFR,Proteasome,Atlas13,46,7,0.5883026236846113
+EGFR,CDK,Atlas13,46,29,0.7627436485677139
+EGFR,EGFR,Atlas13,46,46,1.0
+EGFR,Tubulin,Atlas13,46,30,0.6776406032452713
+EGFR,HSP inhibition,Atlas13,46,18,0.7583745822237266
+EGFR,Glucocorticoid,Atlas13,46,83,0.8664748288451023
+EGFR,Estrogen agonist,Atlas13,46,47,0.8778102989051462
+EGFR,Estrogen antagonist,Atlas13,46,21,0.9805019099076071
+EGFR,Retinoid,Atlas13,46,21,0.9517753020305875
+EGFR,Dopamine antagonist,Atlas13,46,81,0.939531974514147
+EGFR,Serotonin antagonist,Atlas13,46,93,0.9255104687100271
+Tubulin,MEK,Atlas13,30,21,0.48673437810083964
+Tubulin,PI3K,Atlas13,30,39,0.6046657989548779
+Tubulin,mTOR,Atlas13,30,32,0.5585397359639994
+Tubulin,HDAC,Atlas13,30,35,0.5446259629791472
+Tubulin,Topoisomerase,Atlas13,30,49,0.6166535611301637
+Tubulin,Proteasome,Atlas13,30,7,0.6730636523926843
+Tubulin,CDK,Atlas13,30,29,0.5688733263814485
+Tubulin,EGFR,Atlas13,30,46,0.6776406032452713
+Tubulin,Tubulin,Atlas13,30,30,1.0
+Tubulin,HSP inhibition,Atlas13,30,18,0.5978007023957188
+Tubulin,Glucocorticoid,Atlas13,30,83,0.6065112212045489
+Tubulin,Estrogen agonist,Atlas13,30,47,0.6653066774300346
+Tubulin,Estrogen antagonist,Atlas13,30,21,0.6168237356003523
+Tubulin,Retinoid,Atlas13,30,21,0.6834642423400438
+Tubulin,Dopamine antagonist,Atlas13,30,81,0.6347430700357689
+Tubulin,Serotonin antagonist,Atlas13,30,93,0.6367084603812523
+HSP inhibition,MEK,Atlas13,18,21,0.7802130319912075
+HSP inhibition,PI3K,Atlas13,18,39,0.766730267256194
+HSP inhibition,mTOR,Atlas13,18,32,0.750923618852083
+HSP inhibition,HDAC,Atlas13,18,35,0.6686847278622878
+HSP inhibition,Topoisomerase,Atlas13,18,49,0.6922668261562999
+HSP inhibition,Proteasome,Atlas13,18,7,0.7040149054586183
+HSP inhibition,CDK,Atlas13,18,29,0.6440310528646681
+HSP inhibition,EGFR,Atlas13,18,46,0.7583745822237266
+HSP inhibition,Tubulin,Atlas13,18,30,0.5978007023957188
+HSP inhibition,HSP inhibition,Atlas13,18,18,1.0
+HSP inhibition,Glucocorticoid,Atlas13,18,83,0.6035397971925085
+HSP inhibition,Estrogen agonist,Atlas13,18,47,0.5853029339729698
+HSP inhibition,Estrogen antagonist,Atlas13,18,21,0.7358245237274159
+HSP inhibition,Retinoid,Atlas13,18,21,0.6937520335407388
+HSP inhibition,Dopamine antagonist,Atlas13,18,81,0.6413697693384296
+HSP inhibition,Serotonin antagonist,Atlas13,18,93,0.6263036420272994
+Glucocorticoid,MEK,Atlas13,83,21,0.6932885926573159
+Glucocorticoid,PI3K,Atlas13,83,39,0.7484428875732391
+Glucocorticoid,mTOR,Atlas13,83,32,0.6812502141509978
+Glucocorticoid,HDAC,Atlas13,83,35,0.5893202127610241
+Glucocorticoid,Topoisomerase,Atlas13,83,49,0.6687168500737125
+Glucocorticoid,Proteasome,Atlas13,83,7,0.3933790725985433
+Glucocorticoid,CDK,Atlas13,83,29,0.650767840366981
+Glucocorticoid,EGFR,Atlas13,83,46,0.8664748288451023
+Glucocorticoid,Tubulin,Atlas13,83,30,0.6065112212045489
+Glucocorticoid,HSP inhibition,Atlas13,83,18,0.6035397971925085
+Glucocorticoid,Glucocorticoid,Atlas13,83,83,0.9999999114077495
+Glucocorticoid,Estrogen agonist,Atlas13,83,47,0.9595328389230078
+Glucocorticoid,Estrogen antagonist,Atlas13,83,21,0.8630346145689515
+Glucocorticoid,Retinoid,Atlas13,83,21,0.8904048318368271
+Glucocorticoid,Dopamine antagonist,Atlas13,83,81,0.9521656852534451
+Glucocorticoid,Serotonin antagonist,Atlas13,83,93,0.9570963112958906
+Estrogen agonist,MEK,Atlas13,47,21,0.6502884868408261
+Estrogen agonist,PI3K,Atlas13,47,39,0.7402728661428667
+Estrogen agonist,mTOR,Atlas13,47,32,0.6674144592963879
+Estrogen agonist,HDAC,Atlas13,47,35,0.5815633511625592
+Estrogen agonist,Topoisomerase,Atlas13,47,49,0.6729006781726117
+Estrogen agonist,Proteasome,Atlas13,47,7,0.4138480498345457
+Estrogen agonist,CDK,Atlas13,47,29,0.651008757213816
+Estrogen agonist,EGFR,Atlas13,47,46,0.8778102989051462
+Estrogen agonist,Tubulin,Atlas13,47,30,0.6653066774300346
+Estrogen agonist,HSP inhibition,Atlas13,47,18,0.5853029339729698
+Estrogen agonist,Glucocorticoid,Atlas13,47,83,0.9595328389230078
+Estrogen agonist,Estrogen agonist,Atlas13,47,47,1.0
+Estrogen agonist,Estrogen antagonist,Atlas13,47,21,0.8589145962656054
+Estrogen agonist,Retinoid,Atlas13,47,21,0.9162959556798471
+Estrogen agonist,Dopamine antagonist,Atlas13,47,81,0.9753657313732161
+Estrogen agonist,Serotonin antagonist,Atlas13,47,93,0.9824370111904012
+Estrogen antagonist,MEK,Atlas13,21,21,0.8804902612635792
+Estrogen antagonist,PI3K,Atlas13,21,39,0.9163364607817203
+Estrogen antagonist,mTOR,Atlas13,21,32,0.8737316261100088
+Estrogen antagonist,HDAC,Atlas13,21,35,0.7572187766820128
+Estrogen antagonist,Topoisomerase,Atlas13,21,49,0.7776746104101442
+Estrogen antagonist,Proteasome,Atlas13,21,7,0.5434859445179837
+Estrogen antagonist,CDK,Atlas13,21,29,0.748705233710782
+Estrogen antagonist,EGFR,Atlas13,21,46,0.9805019099076071
+Estrogen antagonist,Tubulin,Atlas13,21,30,0.6168237356003523
+Estrogen antagonist,HSP inhibition,Atlas13,21,18,0.7358245237274159
+Estrogen antagonist,Glucocorticoid,Atlas13,21,83,0.8630346145689515
+Estrogen antagonist,Estrogen agonist,Atlas13,21,47,0.8589145962656054
+Estrogen antagonist,Estrogen antagonist,Atlas13,21,21,1.0000000621076544
+Estrogen antagonist,Retinoid,Atlas13,21,21,0.9405639166914171
+Estrogen antagonist,Dopamine antagonist,Atlas13,21,81,0.9348907221829175
+Estrogen antagonist,Serotonin antagonist,Atlas13,21,93,0.9194354605368041
+Retinoid,MEK,Atlas13,21,21,0.7735560596392467
+Retinoid,PI3K,Atlas13,21,39,0.849486478330449
+Retinoid,mTOR,Atlas13,21,32,0.8020850770318249
+Retinoid,HDAC,Atlas13,21,35,0.6877616738825612
+Retinoid,Topoisomerase,Atlas13,21,49,0.7568459233909428
+Retinoid,Proteasome,Atlas13,21,7,0.5774386408557529
+Retinoid,CDK,Atlas13,21,29,0.722082386477543
+Retinoid,EGFR,Atlas13,21,46,0.9517753020305875
+Retinoid,Tubulin,Atlas13,21,30,0.6834642423400438
+Retinoid,HSP inhibition,Atlas13,21,18,0.6937520335407388
+Retinoid,Glucocorticoid,Atlas13,21,83,0.8904048318368271
+Retinoid,Estrogen agonist,Atlas13,21,47,0.9162959556798471
+Retinoid,Estrogen antagonist,Atlas13,21,21,0.9405639166914171
+Retinoid,Retinoid,Atlas13,21,21,1.0
+Retinoid,Dopamine antagonist,Atlas13,21,81,0.9440616937291129
+Retinoid,Serotonin antagonist,Atlas13,21,93,0.9365303215125428
+Dopamine antagonist,MEK,Atlas13,81,21,0.7535084331722738
+Dopamine antagonist,PI3K,Atlas13,81,39,0.8258849284859413
+Dopamine antagonist,mTOR,Atlas13,81,32,0.7582987002081429
+Dopamine antagonist,HDAC,Atlas13,81,35,0.6557247848329426
+Dopamine antagonist,Topoisomerase,Atlas13,81,49,0.7269551651390784
+Dopamine antagonist,Proteasome,Atlas13,81,7,0.4387965162975819
+Dopamine antagonist,CDK,Atlas13,81,29,0.7020461747208389
+Dopamine antagonist,EGFR,Atlas13,81,46,0.939531974514147
+Dopamine antagonist,Tubulin,Atlas13,81,30,0.6347430700357689
+Dopamine antagonist,HSP inhibition,Atlas13,81,18,0.6413697693384296
+Dopamine antagonist,Glucocorticoid,Atlas13,81,83,0.9521656852534451
+Dopamine antagonist,Estrogen agonist,Atlas13,81,47,0.9753657313732161
+Dopamine antagonist,Estrogen antagonist,Atlas13,81,21,0.9348907221829175
+Dopamine antagonist,Retinoid,Atlas13,81,21,0.9440616937291129
+Dopamine antagonist,Dopamine antagonist,Atlas13,81,81,1.0000000745544921
+Dopamine antagonist,Serotonin antagonist,Atlas13,63,75,0.9963471414874747
+Serotonin antagonist,MEK,Atlas13,93,21,0.7298878688881824
+Serotonin antagonist,PI3K,Atlas13,93,39,0.8068715944250535
+Serotonin antagonist,mTOR,Atlas13,93,32,0.7369052704948001
+Serotonin antagonist,HDAC,Atlas13,93,35,0.636767277364486
+Serotonin antagonist,Topoisomerase,Atlas13,93,49,0.7134155850200158
+Serotonin antagonist,Proteasome,Atlas13,93,7,0.42353487614216717
+Serotonin antagonist,CDK,Atlas13,93,29,0.6901788416666633
+Serotonin antagonist,EGFR,Atlas13,93,46,0.9255104687100271
+Serotonin antagonist,Tubulin,Atlas13,93,30,0.6367084603812523
+Serotonin antagonist,HSP inhibition,Atlas13,93,18,0.6263036420272994
+Serotonin antagonist,Glucocorticoid,Atlas13,93,83,0.9570963112958906
+Serotonin antagonist,Estrogen agonist,Atlas13,93,47,0.9824370111904012
+Serotonin antagonist,Estrogen antagonist,Atlas13,93,21,0.9194354605368041
+Serotonin antagonist,Retinoid,Atlas13,93,21,0.9365303215125428
+Serotonin antagonist,Dopamine antagonist,Atlas13,75,63,0.9963471414874747
+Serotonin antagonist,Serotonin antagonist,Atlas13,93,93,1.0

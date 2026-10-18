@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "quantitative_panels": 18,
+  "tasks": [
+    {
+      "id": "figure1",
+      "default": true,
+      "cwd": ".",
+      "command": [
+        "{python}",
+        "figures/figure1/run.py"
+      ],
+      "inputs": [
+        "figures/figure1"
+      ],
+      "outputs": [
+        "results/figures/figure1/F1c.pdf",
+        "results/figures/figure1/F1d.pdf"
+      ],
+      "panels": [
+        "F1c",
+        "F1d"
+      ],
+      "scope": "Measured genetic/chemical cross-context transfer"
+    },
+    {
+      "id": "figure1i",
+      "default": true,
+      "cwd": ".",
+      "command": [
+        "{python}",
+        "figures/figure1i/code/draw_joint_modulation.py",
+        "--output",
+        "results/figures/figure1i"
+      ],
+      "inputs": [
+        "figures/figure1i"
+      ],
+      "outputs": [
+        "results/figures/figure1i/F1i.pdf"
+      ],
+      "panels": [
+        "F1i"
+      ],
+      "scope": "Conditional-modulation component intervention"
+    },
+    {
+      "id": "figure2b",
+      "default": true,
+      "cwd": ".",
+      "command": [
+        "{python}",
+        "figures/figure2b/code/render_figures.py",
+        "--output",
+        "results/figures/figure2b"
+      ],
+      "inputs": [
+        "figures/figure2b"
+      ],
+      "outputs": [
+        "results/figures/figure2b/F2b.pdf"
+      ],
+      "panels": [
+        "F2b"
+      ],
+      "scope": "Internal method comparison"
+    },
+    {
+      "id": "figure2",
+      "default": true,
+      "cwd": ".",
+      "command": [
+        "{python}",
+        "figures/figure2/run.py"
+      ],
+      "inputs": [
+        "figures/figure2"
+      ],
+      "outputs": [
+        "results/figures/figure2/F2d.pdf"
+      ],
+      "panels": [
+        "F2d"
+      ],
+      "scope": "Drug-level source performance versus prediction gain"
+    },
+    {
+      "id": "figure3",
+      "default": true,
+      "cwd": ".",
+      "command": [
+        "{python}",
+        "figures/figure3/code/draw_figure3.py",
+        "--output",
+        "results/figures/figure3"
+      ],
+      "inputs": [
+        "figures/figure3"
+      ],
+      "outputs": [
+        "results/figures/figure3/F3b.pdf",
+        "results/figures/figure3/F3c.pdf"
+      ],
+      "panels": [
+        "F3b",
+        "F3c"
+      ],
+      "scope": "External method comparison and ranks"
+    },
+    {
+      "id": "figure4",
+      "default": true,
+      "cwd": ".",
+      "command": [
+        "{python}",
+        "figures/figure4/code/render.py",
+        "--output",
+        "results/figures/figure4"
+      ],
+      "inputs": [
+        "figures/figure4"
+      ],
+      "outputs": [
+        "results/figures/figure4/F4b.pdf",
+        "results/figures/figure4/F4c.pdf",
+        "results/figures/figure4/F4f.pdf"
+      ],
+      "panels": [
+        "F4b",
+        "F4c",
+        "F4f"
+      ],
+      "scope": "Anchor adaptation ranking, gains and mechanism strata"
+    },
+    {
+      "id": "figure5",
+      "default": true,
+      "cwd": ".",
+      "command": [
+        "{python}",
+        "figures/figure5/code/render.py",
+        "--output",
+        "results/figures/figure5"
+      ],
+      "inputs": [
+        "figures/figure5"
+      ],
+      "outputs": [
+        "results/figures/figure5/F5b.pdf",
+        "results/figures/figure5/F5k.pdf"
+      ],
+      "panels": [
+        "F5b",
+        "F5k"
+      ],
+      "scope": "Atlas map and PI3K–mTOR fingerprint"
+    },
+    {
+      "id": "figure6",
+      "default": true,
+      "cwd": ".",
+      "command": [
+        "{python}",
+        "figures/figure6/run.py"
+      ],
+      "inputs": [
+        "figures/figure6"
+      ],
+      "outputs": [
+        "results/figures/figure6/F6e.pdf"
+      ],
+      "panels": [
+        "F6e"
+      ],
+      "scope": "Context-dependent glucocorticoid ROS programme"
+    },
+    {
+      "id": "figure7",
+      "default": true,
+      "cwd": ".",
+      "command": [
+        "{python}",
+        "figures/figure7/run.py"
+      ],
+      "inputs": [
+        "figures/figure7"
+      ],
+      "outputs": [
+        "results/figures/figure7/F7f.pdf",
+        "results/figures/figure7/F7g.pdf",
+        "results/figures/figure7/F7h.pdf"
+      ],
+      "panels": [
+        "F7f",
+        "F7g",
+        "F7h"
+      ],
+      "scope": "iPSC genetic correspondence, MoA summary and fixed drug cases"
+    },
+    {
+      "id": "supplementary",
+      "default": true,
+      "cwd": ".",
+      "command": [
+        "{python}",
+        "figures/supplementary/run.py"
+      ],
+      "inputs": [
+        "figures/supplementary"
+      ],
+      "outputs": [
+        "results/figures/supplementary/FS2a.pdf",
+        "results/figures/supplementary/FS2b.pdf"
+      ],
+      "panels": [
+        "FS2a",
+        "FS2b"
+      ],
+      "scope": "Genetic input budgets and retained state dimensions"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "file": "adapter.npz",
+  "kind": "ridge",
+  "target": "PC3",
+  "sha256": "6e97b9d49c9fc33f857db937d50ede4f7b401574341675dd9d93d5a3e711ac4d",
+  "original_checkpoint_sha256": "96cb5fe4b9ae4bf33a7f7bf8744d5855aae4dbf23b4db993781acc50ddf63097",
+  "best_epoch": 38,
+  "best_val_delta": 0.01212074359258016,
+  "train_cells": [
+    "A375",
+    "A549",
+    "HT29"
+  ],
+  "val_cell": "MCF7",
+  "mu": 0.25,
+  "nu": 2.0
+}

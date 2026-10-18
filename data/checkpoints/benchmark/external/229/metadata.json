@@ -1,0 +1,19 @@
+{
+  "file": "model.npz",
+  "seed": 229,
+  "target": "external",
+  "mapping": "saturating",
+  "scale": 1.3092182874679565,
+  "gain": 1.0,
+  "sources": [
+    "A375",
+    "A549",
+    "HT29",
+    "MCF7",
+    "PC3"
+  ],
+  "steps": null,
+  "original_checkpoint_sha256": "b868852b153e315e01adba7845a882bc4c7ef1381cc68b43dee5dd9f541cdea7",
+  "sha256": "4ab28b2fe74331d13714e91ed83052dd4ee359506d378a51362acc91263544cb",
+  "bytes": 793861
+}

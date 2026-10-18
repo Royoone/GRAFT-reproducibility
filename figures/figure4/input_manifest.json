@@ -1,0 +1,29 @@
+{
+  "panels": [
+    "F4b",
+    "F4c",
+    "F4f"
+  ],
+  "files": [
+    {
+      "path": "source_data/budget_summary.csv",
+      "bytes": 3965,
+      "sha256": "f038087887f6300cd8179d4dc7c020e0ba742c5aaa94b63949dcbf9767b2f38c"
+    },
+    {
+      "path": "source_data/mechanism_paired_tests.csv",
+      "bytes": 5537,
+      "sha256": "9b741c44effa624c4830fe0cc026662f7fbf73ff1c59acfca99eb5381caeba9a"
+    },
+    {
+      "path": "source_data/primary_metric_summary.csv",
+      "bytes": 6941,
+      "sha256": "5bf1a6e6be5cae4481edca54695f2dfd09ffde11772e4a98bed0f442ce685d69"
+    },
+    {
+      "path": "source_data/ranking_contract.json",
+      "bytes": 478,
+      "sha256": "320d9557deba081f7eb760e6555464812ebeb541d4dadaa14f42d5474e3de589"
+    }
+  ]
+}

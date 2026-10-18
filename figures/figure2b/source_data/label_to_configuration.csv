@@ -1,0 +1,18 @@
+panel,display_label,method_key,target_D
+F2b,GRAFT,GRAFT,0
+F2b,Source mean,source_mean,0
+F2b,XPert,xpert_dual_drug_residual,0
+F2b,DeepCE,deepce_attention,0
+F2b,CIGER (hinge),ciger_attention,0
+F2b,CIGER (RankNet),ciger_ranknet,0
+F2b,PRnet,prnet_repro,0
+F2b,TranSiGen,transigen_repro,0
+F2b,chemCPA,chemcpa_repro,0
+F2b,Morgan-256,morgan256,0
+F2b,Morgan-2048,morgan2048,0
+F2b,UniPert MLP,mlp_unipert,0
+F2b,G2CP,g2cp_author_pooled_staged_d0,0
+F2b,HyperMap,hypermap_fullsource_refit_d0,0
+F2b,HyperMap,hypermap_fullsource_refit_d20,20
+F2b,G2CP-adapter,g2cp_adapter_d20,20
+F2b,G2CP-adapter,g2cp_adapter_d10pct,10%

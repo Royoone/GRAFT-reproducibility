@@ -1,0 +1,46 @@
+{
+  "n_rows": 16,
+  "n_cells": 1,
+  "seeds": [
+    52
+  ],
+  "n_shared": 3220,
+  "n_ridge_support": 2576,
+  "n_queries": 644,
+  "ridge_lambda": 1.0,
+  "ridge_uses_measured_target_support_drugs": true,
+  "query_responses_used_only_for_scoring": true,
+  "PCA_fitted_only_on_support_rows": true,
+  "projection": "ordinary least squares with a constant column; project replacement identities into frozen UniPert space",
+  "frozen_model_training": false,
+  "representations_sha256": "83f1a8a728853a6825fc34725f11f1f0a6727f4de8dd2f9b901c5edb52e4c4b2",
+  "checks": [
+    {
+      "cell": "A375",
+      "seed": 52,
+      "checkpoint_sha256": "641e67a21895f2511bdce0b02ba64cf566fac423f89f594e738a26a565ab1be6",
+      "mapping": "cross_moment_residual",
+      "genetic_order_sha256": "5555ac3f0cb5a96667f69e513e34316f1a2c720833657a8f199579ec789fa9ef",
+      "reference_feature_max_abs_error": {
+        "true": 0.0,
+        "src": 9.5367431640625e-07,
+        "pred": 2.1457672119140625e-06,
+        "post64": 3.933906555175781e-06
+      }
+    },
+    {
+      "frozen_metric_max_abs_error": {
+        "r20": 4.585869461948278e-09,
+        "recall20": 8.326672684688674e-17,
+        "mse20": 5.316735851579324e-08,
+        "mae20": 1.0071421474577846e-08,
+        "r50": 3.574765483627118e-09,
+        "r100": 2.857175163129e-09
+      },
+      "reference_rows_compared": 16
+    }
+  ],
+  "frozen_unipert_baseline_r20_max_abs_error": 1.2414892447409898e-09,
+  "metric_reference_absolute_tolerance": 1e-05,
+  "finite_row_counts_match_reference": true
+}

@@ -1,0 +1,13 @@
+{
+  "author_scripts": {
+    "analyze_atlas.py": "690527d3195e274947dfc2fa40293160bd5bd400cf1038398efda9158ddf9e5e",
+    "extend_atlas_statistics.py": "6fc4960b2c6e17a8942a8e0a32e14754a0600009e23ed3a4576631f57302e61e",
+    "export_fingerprint_evidence.py": "8b08a6ff9216edf14a53c23aa3f8b87fe0b1c7048dca7f2f8f9c262cd566e157"
+  },
+  "changes": [
+    "Portable CLI and explicit input/output paths",
+    "Fixed manuscript UMAP200/min_dist0.50; no selection/search entry",
+    "Same tensor-matmul/topk algorithm accepts CPU or CUDA",
+    "Validation rejects altered entity/gene/context order"
+  ]
+}

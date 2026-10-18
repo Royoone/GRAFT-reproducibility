@@ -1,0 +1,166 @@
+{
+  "dataset_version": "external_benchmark_F3bc",
+  "prepared_date": "2026-10-05",
+  "seeds": [
+    52,
+    229,
+    564
+  ],
+  "contexts": [
+    "HepG2",
+    "MCF10A",
+    "Jurkat",
+    "K562_L1000",
+    "HAP1"
+  ],
+  "figure_contract": {
+    "conclusion": "GRAFT predicts external-context transcriptional responses and ranks first overall across the twelve declared metrics.",
+    "evidence": {
+      "F3b": "Per-context and equal-context-mean Top20 Pearson correlation with the original SD definitions.",
+      "F3c": "Twelve-metric average-tie ranks, five-context normalized values, and overall rank."
+    },
+    "archetype": "quantitative grid",
+    "backend": "Python/matplotlib",
+    "panels": [
+      "F3b",
+      "F3c"
+    ],
+    "exports": [
+      "PDF with editable text",
+      "SVG with editable text",
+      "400 dpi PNG"
+    ],
+    "numeric_contract": {
+      "GRAFT_macro_r20": 0.60619973738475,
+      "GRAFT_mean_rank": 1.4166666666666667,
+      "GRAFT_first_place_metrics": 9
+    }
+  },
+  "source_read_only": true,
+  "outputs": {
+    "b_benchmark.csv": {
+      "rows": 60,
+      "columns": [
+        "panel",
+        "method",
+        "mean",
+        "sd",
+        "n",
+        "unit",
+        "color"
+      ],
+      "sha256": "05ca80ac5959fbe2631b6916b8c72e53694a9a7eadc534375a23c9da34a8fe05",
+      "definition": "Target values: mean and sample SD across three training seeds. Macro values: equal-weight mean and sample SD across five target-cell means."
+    },
+    "b_gains.csv": {
+      "rows": 6,
+      "columns": [
+        "panel",
+        "graft",
+        "source_mean",
+        "delta_r20",
+        "relative_gain_percent"
+      ],
+      "sha256": "2e007632a4ca1dac0ff6342463611a2755f48ee0dad965aecf982877f4d60eff",
+      "definition": "Delta r20 = GRAFT minus source mean; relative gain percent = 100*delta/source mean."
+    },
+    "b_points.csv": {
+      "rows": 200,
+      "columns": [
+        "panel",
+        "method",
+        "unit_id",
+        "r20"
+      ],
+      "sha256": "841c70ca64a4783d0ab622e323a41e9649b617ebc48dcf5c109b3d0d06ed2d08",
+      "definition": "Target points are training seeds; macro points are five target-cell means."
+    },
+    "b_run_metrics.csv": {
+      "rows": 150,
+      "columns": [
+        "method",
+        "cell",
+        "seed",
+        "r20",
+        "rho20",
+        "r50",
+        "r100",
+        "recall20",
+        "mse20",
+        "mae20",
+        "mse50",
+        "mae50",
+        "mse100",
+        "pos_p20",
+        "neg_p20",
+        "all_r",
+        "sign20"
+      ],
+      "sha256": "45dad162d3469ba7adf0f381c82766e7d4e7b7e66033baa1b14fb3040e299a49",
+      "definition": "Complete adopted external benchmark scores: ten methods, five contexts, three seeds."
+    },
+    "c_metric_ranks.csv": {
+      "rows": 10,
+      "columns": [
+        "method",
+        "r20",
+        "rho20",
+        "r50",
+        "r100",
+        "all_r",
+        "recall20",
+        "pos_p20",
+        "neg_p20",
+        "sign20",
+        "mse20",
+        "mae20",
+        "mae50"
+      ],
+      "sha256": "8a898233f73cc23084d0cc1361825daedd0418775a8d419464e8f2494f8a1dd1",
+      "definition": "Average-tie ranks among 10 methods, on equal-cell metric means. Lower rank is better; error metrics rank ascending, other metrics descending."
+    },
+    "c_metric_values.csv": {
+      "rows": 10,
+      "columns": [
+        "method",
+        "r20",
+        "rho20",
+        "r50",
+        "r100",
+        "all_r",
+        "recall20",
+        "pos_p20",
+        "neg_p20",
+        "sign20",
+        "mse20",
+        "mae20",
+        "mae50"
+      ],
+      "sha256": "46deaa10d00faa014395a84fc0783d82b2cd7ac95ac4558ad41bdc0b81f293a7",
+      "definition": "Three seeds averaged within cell, then five cells equally averaged for 12 declared metrics."
+    },
+    "c_normalized_cells.csv": {
+      "rows": 600,
+      "columns": [
+        "method",
+        "cell",
+        "metric",
+        "raw",
+        "normalized"
+      ],
+      "sha256": "1fc9fc120374de23c7ef89093ecede688cf1239ab2049523f7863c79b6bd0a3c",
+      "definition": "Five cell means per method/metric. Original across-method min-max normalization within cell/metric; error metrics reversed. Values copied without recalibration."
+    },
+    "c_overall_ranking.csv": {
+      "rows": 10,
+      "columns": [
+        "method",
+        "mean_rank",
+        "first_place_count",
+        "r20"
+      ],
+      "sha256": "62b3a90ffb44da91f6089e70054218d2f1e8543a5b0954aa31441da05c5ce080",
+      "definition": "Equal-weight average rank over 12 declared metrics; first-place count counts rank exactly 1."
+    }
+  }
+}

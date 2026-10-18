@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "context": "A375",
+  "seed": 52,
+  "smoke_only": true,
+  "full_second_order_higher_meta_step_ran": true,
+  "effective_updates": 1,
+  "adaptation_steps": 3,
+  "D0_D20_from_identical_fit": true,
+  "frozen_protocol_folds": 15,
+  "official_model_sha256": "adeac4f7ae019f0abd87a6f41dcdeff0aac1ec220202c72767b1961ae693756b",
+  "official_model_unchanged": true,
+  "D0_prediction_shape": [
+    8,
+    976
+  ],
+  "D20_prediction_shape": [
+    8,
+    976
+  ],
+  "support_loss_backtracking_nonincreasing": true
+}

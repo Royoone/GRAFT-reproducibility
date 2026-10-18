@@ -1,0 +1,12 @@
+{
+  "Atlas13_pi3k_mtor_r": 0.9661206195650396,
+  "Measured5_pi3k_mtor_r": 0.9031985539070903,
+  "fingerprint_correlation_max_abs_difference": 9.937366518553148e-08,
+  "fingerprint_tolerance": 2e-07,
+  "ora_rows": 21952,
+  "ora_p_max_abs_difference": 1.1102230246251565e-16,
+  "ora_q_max_abs_difference": 1.1102230246251565e-16,
+  "class_programme_rows": 10192,
+  "class_programme_max_abs_difference": 9.974659986866641e-17,
+  "source": "Original frozen predictions/programme cache and manuscript tables; no model or UMAP fit performed."
+}

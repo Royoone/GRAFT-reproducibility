@@ -1,0 +1,175 @@
+{
+  "files": [
+    {
+      "id": 51051803,
+      "name": "GenomeWideScreen_FitnessGenes_Cell-Metadata.tsv.gz",
+      "size": 3607490,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/51051803",
+      "supplied_md5": "15423c32d9122b2999bb7d657b8f8d18",
+      "computed_md5": "15423c32d9122b2999bb7d657b8f8d18",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 51051806,
+      "name": "GenomeWideScreen_NonFitnessGenes_Cell-Metadata.tsv.gz",
+      "size": 4238782,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/51051806",
+      "supplied_md5": "9f27a55d488d8ffae93d112d307c263b",
+      "computed_md5": "9f27a55d488d8ffae93d112d307c263b",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 51051809,
+      "name": "TargetedScreen_Cell-Metadata.tsv.gz",
+      "size": 13491635,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/51051809",
+      "supplied_md5": "980a440a8132a20567c4c3610e6a5b20",
+      "computed_md5": "980a440a8132a20567c4c3610e6a5b20",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 51051812,
+      "name": "GenomeWideScreen_FitnessGenes_Guide-UMI-Counts.csv.gz",
+      "size": 50267344,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/51051812",
+      "supplied_md5": "1d49fc95ecdcb03298e1bb1c9657fc04",
+      "computed_md5": "1d49fc95ecdcb03298e1bb1c9657fc04",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 51051815,
+      "name": "TargetedScreen_Guide-UMI-Counts.csv.gz",
+      "size": 73778450,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/51051815",
+      "supplied_md5": "96342f750a3cd983d33bfea64aa2559f",
+      "computed_md5": "96342f750a3cd983d33bfea64aa2559f",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 51051818,
+      "name": "GenomeWideScreen_NonFitnessGenes_Guide-UMI-Counts.csv.gz",
+      "size": 104663390,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/51051818",
+      "supplied_md5": "f8f180d0620ec83dbd33add787b3ca1d",
+      "computed_md5": "f8f180d0620ec83dbd33add787b3ca1d",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 51059483,
+      "name": "GenomeWideScreen_FitnessGenes_RNA-UMI-Counts.csv.gz",
+      "size": 1445924890,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/51059483",
+      "supplied_md5": "ba7243599cca0d9b0b09dfd777d1cb97",
+      "computed_md5": "ba7243599cca0d9b0b09dfd777d1cb97",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 51059558,
+      "name": "GenomeWideScreen_NonFitnessGenes_RNA-UMI-Counts.csv.gz",
+      "size": 1748940996,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/51059558",
+      "supplied_md5": "f62d21335ac27809db9ccce97c73af1e",
+      "computed_md5": "f62d21335ac27809db9ccce97c73af1e",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 51072902,
+      "name": "TargetedScreen_RNA-UMI-Counts.csv.gz",
+      "size": 4480969391,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/51072902",
+      "supplied_md5": "f0d613b1ea8147425501baddba034158",
+      "computed_md5": "f0d613b1ea8147425501baddba034158",
+      "mimetype": "application/gzip"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 19451008,
+      "full_name": "Claudia Feng",
+      "first_name": "Claudia",
+      "last_name": "Feng",
+      "is_active": true,
+      "url_name": "Claudia_Feng",
+      "orcid_id": "0000-0001-5912-1526"
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/A_genome-scale_single_cell_CRISPRi_map_of_trans_gene_regulation_across_many_human_pluripotent_stem_cell_lines_Count_Data_/27989294",
+  "download_disabled": false,
+  "description": "<p dir=\"ltr\">This data-set is post-processed from two Perturb-seq experiments - one genome-wide screen and another targeted screen - conducted in multiple iPSC lines, described in (https://www.biorxiv.org/content/10.1101/2024.11.28.625833v1). For each screen (fitness genes, non-fitness genes and targeted screen), the following files are available:</p><p><br></p><ul><li>RNA UMI Counts</li><li>Guide UMI Counts</li><li>Cell Metadata</li></ul><p></p>",
+  "funding": null,
+  "funding_list": [],
+  "version": 2,
+  "status": "public",
+  "size": 7925882368,
+  "created_date": "2025-10-08T01:18:01Z",
+  "modified_date": "2025-10-08T01:18:01Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 3,
+    "name": "MIT",
+    "url": "https://opensource.org/licenses/MIT"
+  },
+  "tags": [
+    "genome-scale Perturb-seq",
+    "Human Induced Pluripotent Stem Cells Human"
+  ],
+  "keywords": [
+    "genome-scale Perturb-seq",
+    "Human Induced Pluripotent Stem Cells Human"
+  ],
+  "categories": [
+    {
+      "id": 24310,
+      "title": "Genomics",
+      "parent_id": 24283,
+      "path": "/24130/24283/24310",
+      "source_id": "310509",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Feng, Claudia (2025). A genome-scale single cell CRISPRi map of trans gene regulation across many human pluripotent stem cell lines (Count Data). figshare. Dataset. https://doi.org/10.6084/m9.figshare.27989294.v2",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": null,
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 27989294,
+  "title": "A genome-scale single cell CRISPRi map of trans gene regulation across many human pluripotent stem cell lines (Count Data)",
+  "doi": "10.6084/m9.figshare.27989294.v2",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/27989294",
+  "published_date": "2025-10-08T01:18:01Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/27989294",
+  "url_public_api": "https://api.figshare.com/v2/articles/27989294",
+  "url_private_html": "https://figshare.com/account/articles/27989294",
+  "url_public_html": "https://figshare.com/articles/dataset/A_genome-scale_single_cell_CRISPRi_map_of_trans_gene_regulation_across_many_human_pluripotent_stem_cell_lines_Count_Data_/27989294",
+  "timeline": {
+    "posted": "2025-10-08T01:18:01",
+    "firstOnline": "2025-10-05"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "source": "author_source/hypermap/run_hypermap_training.py",
+    "sha256": "c3c79517cae0a6f6a469a4d5e62612e92913ff8b010d28f179e6e3ad39b888a5"
+  },
+  {
+    "source": "author_source/hypermap/run_fullsource_refit.py",
+    "sha256": "836192a807543171e3a8298837bc47cad8f796794bab408d39d2e6cfa1e53eb6"
+  },
+  {
+    "source": "author_source/hypermap/model.py",
+    "sha256": "adeac4f7ae019f0abd87a6f41dcdeff0aac1ec220202c72767b1961ae693756b",
+    "changes": "none"
+  }
+]

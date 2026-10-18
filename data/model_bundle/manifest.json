@@ -1,0 +1,88 @@
+{
+  "bundle_version": "1.0.0",
+  "model": "GRAFT",
+  "n_genes": 976,
+  "n_genetic": 4994,
+  "n_drugs": 7856,
+  "sources": [
+    "A375",
+    "A549",
+    "HT29",
+    "MCF7",
+    "PC3"
+  ],
+  "models": [
+    {
+      "seed": 52,
+      "file": "graft_seed52.npz",
+      "scale": 1.3092182874679565,
+      "gain": 1.0,
+      "sha256": "052eeb2b464e234f180a99f7718f7ae02a70dc101408a5c8b471e6fa74f872ae",
+      "training_steps": 200,
+      "original_checkpoint_sha256": "09c5635d2d6ffc79aa7c23ed1247959dabc94c3f7d610f07339df4ba6180e2e9"
+    },
+    {
+      "seed": 229,
+      "file": "graft_seed229.npz",
+      "scale": 1.3092182874679565,
+      "gain": 1.0,
+      "sha256": "24aa7ba8b751088573282128243acde3d51616c17e5dc4c403f03a6d8099b785",
+      "training_steps": 200,
+      "original_checkpoint_sha256": "6e971ca8885ff8fa7b839af117c64953a542b6b8439da75e03b7ba59cd9151ac"
+    },
+    {
+      "seed": 564,
+      "file": "graft_seed564.npz",
+      "scale": 1.3092182874679565,
+      "gain": 1.0,
+      "sha256": "ef7a5746b18c325ec39d6de50a98ed716430f6a27f5da022b6c38feabe21698b",
+      "training_steps": 200,
+      "original_checkpoint_sha256": "a6dbbc437ea37d055403db412ea762960a40fa7d712d3a57e0fab5dbb99e3afa"
+    }
+  ],
+  "reference": {
+    "file": "reference.npz",
+    "sha256": "696eef21f7c10dd39b3ff3233581fbb940bd664906c3b973cbf530b640327e0c"
+  },
+  "adapter": {
+    "file": "adapter.npz",
+    "sha256": "0db003cf0997395c4e00c0bf3aff296fb92331082833516cd1070979b082a2f1",
+    "kind": "ridge_remix",
+    "rank": 8,
+    "original_checkpoint_sha256": "372fb229ea7f9c1340b9ef672d0500292f103c5ef1038e678849ec03b503b75c",
+    "trained_on": [
+      "A375",
+      "A549",
+      "HT29",
+      "MCF7",
+      "PC3"
+    ]
+  },
+  "response_scale": "original processed response scale; divide by model scale internally",
+  "reference_aggregation": "equal mean over source contexts measuring each perturbation",
+  "identity_representation": "frozen 256-dimensional UniPert embeddings",
+  "query_unit": "drug record ID",
+  "gene_panel": "fixed 976-gene panel",
+  "weights_format": "NPZ tensor arrays, no Python pickle",
+  "asset_terms": "See THIRD_PARTY.md for provenance and third-party terms; no separate GRAFT licence grant is made in this release.",
+  "tables": [
+    {
+      "file": "catalog.tsv",
+      "sha256": "a1fb3d78555bca9519c904a06097c06c3e2d6094d4639c4578eeefee6c74eecf"
+    },
+    {
+      "file": "genes.tsv",
+      "sha256": "c6ef9317bf404e565f37c938d8155eff5b34fa7a6f9bbddcc054407491caf80c"
+    },
+    {
+      "file": "genetic_ids.tsv",
+      "sha256": "beb47435ec496116e31e7c1d62e2d758d5bd7be42bed691202cdac15e414641c"
+    }
+  ],
+  "source_data": {
+    "collection": "LINCS L1000",
+    "landing_page": "https://clue.io/data/CMap2020#LINCS2020",
+    "reference_field": "genetic_native and chemical_native in author-prepared crossmodal tables",
+    "identity_source": "https://github.com/TencentAILabHealthcare/UniPert"
+  }
+}

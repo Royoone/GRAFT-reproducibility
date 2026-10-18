@@ -1,0 +1,217 @@
+{
+  "files": [
+    {
+      "id": 49291675,
+      "name": "TargetedScreen_LFC_byGene-perLine.tsv.gz",
+      "size": 1919661029,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/49291675",
+      "supplied_md5": "27ae8d0109b9c42f1f972c45987db77e",
+      "computed_md5": "27ae8d0109b9c42f1f972c45987db77e",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 49291672,
+      "name": "GenomeWideScreen_LFC_byGuide.tsv.gz",
+      "size": 1812579303,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/49291672",
+      "supplied_md5": "adb0418b44f95866331b5c72259a26a1",
+      "computed_md5": "adb0418b44f95866331b5c72259a26a1",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 49291630,
+      "name": "TargetedScreen_LFC_byGene.tsv.gz",
+      "size": 77563731,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/49291630",
+      "supplied_md5": "f75a54e972e14dad2465070e2108f58a",
+      "computed_md5": "f75a54e972e14dad2465070e2108f58a",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 49291639,
+      "name": "TargetedScreen_LFC_byGuide.tsv.gz",
+      "size": 231621570,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/49291639",
+      "supplied_md5": "925fb7a41c5152993007b625300e13c2",
+      "computed_md5": "925fb7a41c5152993007b625300e13c2",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 49291645,
+      "name": "GenomeWideScreen_Coperturbation-Expressed-Gene-Correlation.tsv.gz",
+      "size": 529575408,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/49291645",
+      "supplied_md5": "236092cfd03c78bcf13718cd58c1b044",
+      "computed_md5": "236092cfd03c78bcf13718cd58c1b044",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 49291654,
+      "name": "GenomeWideScreen_LFC_byGene.tsv.gz",
+      "size": 794610300,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/49291654",
+      "supplied_md5": "03cb8a3b4328de50d45746a9d784bbc5",
+      "computed_md5": "03cb8a3b4328de50d45746a9d784bbc5",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 49291633,
+      "name": "GenomeWideScreen_Coregulation-Target-Correlation.tsv.gz",
+      "size": 155213386,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/49291633",
+      "supplied_md5": "1b0183ed08a415f019aba59d338651d9",
+      "computed_md5": "1b0183ed08a415f019aba59d338651d9",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 49291687,
+      "name": "TargetedScreen_LFC_byGuide-perLine.tsv.gz",
+      "size": 3592732872,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/49291687",
+      "supplied_md5": "30ebe001680aeab38ae2483c0ed0e95a",
+      "computed_md5": "30ebe001680aeab38ae2483c0ed0e95a",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 50865516,
+      "name": "00_raw_data_id_mapping.csv",
+      "size": 122631,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/50865516",
+      "supplied_md5": "f698f9da456bbe480992fb2b7f509947",
+      "computed_md5": "f698f9da456bbe480992fb2b7f509947",
+      "mimetype": "text/csv"
+    },
+    {
+      "id": 58551544,
+      "name": "scripts.zip",
+      "size": 3303491,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/58551544",
+      "supplied_md5": "51e9b796e1fba046a7305f17fc7ba592",
+      "computed_md5": "51e9b796e1fba046a7305f17fc7ba592",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 58551748,
+      "name": "Peer Review.pdf",
+      "size": 2453785,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/58551748",
+      "supplied_md5": "418b84a003550805b7bbc596f03aa202",
+      "computed_md5": "418b84a003550805b7bbc596f03aa202",
+      "mimetype": "application/pdf"
+    }
+  ],
+  "folder_structure": {
+    "49291630": "02_lfc_tables",
+    "49291633": "02_lfc_tables",
+    "49291639": "02_lfc_tables",
+    "49291645": "02_lfc_tables",
+    "49291654": "02_lfc_tables",
+    "49291672": "02_lfc_tables",
+    "49291675": "02_lfc_tables",
+    "49291687": "02_lfc_tables",
+    "50865516": "",
+    "58551544": "",
+    "58551748": ""
+  },
+  "authors": [
+    {
+      "id": 19468669,
+      "full_name": "Claudia Feng",
+      "first_name": "Claudia",
+      "last_name": "Feng",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/A_genome-scale_single_cell_CRISPRi_map_of_trans_gene_regulation_across_many_human_pluripotent_stem_cell_lines_Transcriptional_Changes_/26819743",
+  "download_disabled": false,
+  "description": "<p dir=\"ltr\">This data-set is post-processed from two Perturb-seq experiments - one genome-wide screen and another targeted screen - conducted in multiple iPSC lines, described in (https://www.biorxiv.org/content/10.1101/2024.11.28.625833v1). The following data summaries are available:</p><ul><li><b>[Genome-wide screen]</b> Mean transcriptional fold-change per targets and expressed gene.</li><li><b>[Genome-wide screen]</b> Mean transcriptional fold-change per guide and expressed gene.</li><li><b>[Genome-wide screen]</b> Co-regulation (R2) of targets.</li><li><b>[Genome-wide screen]</b> Co-perturbation (R2) of expressed genes.</li><li><b>[Targeted screen]</b> Mean transcriptional fold-change per target across cell lines, per expressed gene.</li><li><b>[Targeted screen]</b> Mean transcriptional fold-change per guide across cell lines, per expressed gene.</li><li><b>[Targeted screen]</b> Mean transcriptional fold-change per target, per cell line, per expressed gene.</li></ul><p></p>",
+  "funding": null,
+  "funding_list": [],
+  "version": 1,
+  "status": "public",
+  "size": 9119437506,
+  "created_date": "2025-10-08T01:30:54Z",
+  "modified_date": "2025-10-08T01:30:54Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 3,
+    "name": "MIT",
+    "url": "https://opensource.org/licenses/MIT"
+  },
+  "tags": [
+    "Genome-scale Perturb-seq",
+    "CRISPR",
+    "single-cell RNA-sequencing",
+    "Human Induced Pluripotent Stem Cells",
+    "Genetics",
+    "Perturb-seq",
+    "CROP-seq"
+  ],
+  "keywords": [
+    "Genome-scale Perturb-seq",
+    "CRISPR",
+    "single-cell RNA-sequencing",
+    "Human Induced Pluripotent Stem Cells",
+    "Genetics",
+    "Perturb-seq",
+    "CROP-seq"
+  ],
+  "categories": [
+    {
+      "id": 24310,
+      "title": "Genomics",
+      "parent_id": 24283,
+      "path": "/24130/24283/24310",
+      "source_id": "310509",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Feng, Claudia (2025). A genome-scale single cell CRISPRi map of trans gene regulation across many human pluripotent stem cell lines (Transcriptional Changes). figshare. Dataset. https://doi.org/10.6084/m9.figshare.26819743.v1",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": null,
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 26819743,
+  "title": "A genome-scale single cell CRISPRi map of trans gene regulation across many human pluripotent stem cell lines (Transcriptional Changes)",
+  "doi": "10.6084/m9.figshare.26819743.v1",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/26819743",
+  "published_date": "2025-10-08T01:30:54Z",
+  "thumb": "https://s3-eu-west-1.amazonaws.com/pfigshare-u-previews/58551748/thumb.png",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/26819743",
+  "url_public_api": "https://api.figshare.com/v2/articles/26819743",
+  "url_private_html": "https://figshare.com/account/articles/26819743",
+  "url_public_html": "https://figshare.com/articles/dataset/A_genome-scale_single_cell_CRISPRi_map_of_trans_gene_regulation_across_many_human_pluripotent_stem_cell_lines_Transcriptional_Changes_/26819743",
+  "timeline": {
+    "posted": "2025-10-08T01:30:54",
+    "firstOnline": "2025-10-08"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

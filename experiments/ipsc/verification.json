@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "n_contexts": 19,
+  "n_entities": 7755,
+  "n_genes": 976,
+  "n_model_support_target_identities": 118,
+  "prepared_targets_stored": 124,
+  "extra_score_only_target_identities": 6,
+  "max_selected_case_gene_error": 9.5367431640625e-07,
+  "mean_selected_case_gene_error": 1.0313395648609003e-07,
+  "max_all_entity_RMS_error": 3.8283356262880375e-07,
+  "mean_all_entity_RMS_error": 4.387394491092808e-08,
+  "interpretation": "CPU inference agrees with the frozen manuscript GPU predictions within float32 numerical tolerance; no iPSC drug labels used.",
+  "max_235_recomputed_drug_rho_difference": 9.71445146547012e-17,
+  "n_235_association_ranks_changed": 0,
+  "positive_count_235": 158
+}

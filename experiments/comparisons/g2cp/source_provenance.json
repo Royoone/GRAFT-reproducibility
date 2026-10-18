@@ -1,0 +1,22 @@
+[
+  {
+    "source": "author_source/g2cp/run_author_g2cp.py",
+    "sha256": "eb1d63ea885bbf3bb4abe866c709b39098de3ceca74fa4bdb1ee82b4776e6556"
+  },
+  {
+    "source": "author_source/g2cp/run_pooled_g2cp_fast.py",
+    "sha256": "1ca079ee2d966ec46660018ede797318c165ad726f36c79f8afc5abd4113e5e1"
+  },
+  {
+    "source": "author_source/g2cp/fast_author_forward.py",
+    "sha256": "2cc37791724f6f04edbf3bcf9af5f852fac4384eb183b86a50d8689a0fb34c4e"
+  },
+  {
+    "source": "author_source/g2cp/model.py",
+    "sha256": "8f932797235e4ed2b7fd610fc379c73fe07198823ce17e67067bcf4a9d3e4b3a"
+  },
+  {
+    "source": "author_source/g2cp/utils.py",
+    "sha256": "4a20b5a53bb1395fb5bd96bb12f10a1f46f6bc127c380e51ec50043dae323cde"
+  }
+]

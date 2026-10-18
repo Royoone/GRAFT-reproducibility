@@ -1,0 +1,17 @@
+{
+  "file": "adapter.npz",
+  "kind": "kernel",
+  "target": "A549",
+  "sha256": "ff1ef5fad9b4586b373e0e1a661cb1ce872ed0e2032c18f2ccaed611e2eaad95",
+  "original_checkpoint_sha256": "cffbe92c96316ffa57145370ad6145319aa5987cd81f08bc33775043144d6df2",
+  "best_epoch": 35,
+  "best_val_delta": 0.008254985014597574,
+  "train_cells": [
+    "A375",
+    "HT29",
+    "MCF7"
+  ],
+  "val_cell": "PC3",
+  "mu": 0.25,
+  "nu": 2.0
+}

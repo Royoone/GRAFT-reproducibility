@@ -1,0 +1,62 @@
+{
+  "backend": "python",
+  "archetype": "quantitative grid",
+  "conclusion": "Internal cross-context prediction comparison across the seventeen configurations used in the manuscript.",
+  "F2b": {
+    "cohort": "internal",
+    "methods": [
+      "GRAFT",
+      "source_mean",
+      "xpert_dual_drug_residual",
+      "deepce_attention",
+      "ciger_attention",
+      "ciger_ranknet",
+      "prnet_repro",
+      "transigen_repro",
+      "chemcpa_repro",
+      "morgan256",
+      "morgan2048",
+      "mlp_unipert",
+      "g2cp_author_pooled_staged_d0",
+      "hypermap_fullsource_refit_d0",
+      "hypermap_fullsource_refit_d20",
+      "g2cp_adapter_d20",
+      "g2cp_adapter_d10pct"
+    ],
+    "seeds": [
+      52,
+      229,
+      564
+    ],
+    "n_metrics": 21
+  },
+  "short_labels": {
+    "GRAFT": "GRAFT",
+    "source_mean": "Source mean",
+    "xpert_dual_drug_residual": "XPert",
+    "deepce_attention": "DeepCE",
+    "ciger_attention": "CIGER (hinge)",
+    "ciger_ranknet": "CIGER (RankNet)",
+    "prnet_repro": "PRnet",
+    "transigen_repro": "TranSiGen",
+    "chemcpa_repro": "chemCPA",
+    "morgan256": "Morgan-256",
+    "morgan2048": "Morgan-2048",
+    "mlp_unipert": "UniPert MLP",
+    "g2cp_author_pooled_staged_d0": "G2CP",
+    "hypermap_fullsource_refit_d0": "HyperMap",
+    "hypermap_fullsource_refit_d20": "HyperMap",
+    "g2cp_adapter_d20": "G2CP-adapter",
+    "g2cp_adapter_d10pct": "G2CP-adapter"
+  },
+  "exports": [
+    "editable PDF",
+    "editable SVG",
+    "300 dpi PNG",
+    "600 dpi LZW TIFF"
+  ],
+  "width_mm": 183,
+  "normalization": "Global per-metric min–max over internal cell–seed runs; error metrics reversed for display. Ranks use raw macro means.",
+  "statistics": "Five contexts and three computational seeds; no significance tests or biological replication claimed.",
+  "source_sha256": "b4ebd261908ba497a46343796bf8bf190366b7833fcc626e4f2c8befe0a7250c"
+}

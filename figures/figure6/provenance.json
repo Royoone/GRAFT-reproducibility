@@ -1,0 +1,15 @@
+{
+  "scope": "F6e: paired glucocorticoid ROS-programme contrast",
+  "source": "Author manuscript quantitative source tables",
+  "inputs": [
+    {
+      "file": "GR_family_ROS_raw.csv",
+      "sha256": "dbcb7f0f348b7f10f085cbc6fa68a6ee08a0992e02e55467feaa3d319da74f1f"
+    },
+    {
+      "file": "summary.json",
+      "sha256": "db17afbd2f20ee00e4d27725dc5eebcf7966758a18a0c192b5f83c5538d939f7"
+    }
+  ],
+  "calculation": "Original numerical rules, colors, axis limits and deterministic point order retained."
+}

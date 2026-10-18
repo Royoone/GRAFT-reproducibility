@@ -1,0 +1,9 @@
+{
+  "evaluation_max_output_error": 2.9802322387695312e-08,
+  "evaluation_max_parameter_gradient_error": 1.862645149230957e-09,
+  "evaluation_max_BatchNorm_stat_error": 0.0,
+  "training_max_output_error": 1.2814998626708984e-06,
+  "training_max_parameter_gradient_error": 5.066394805908203e-07,
+  "training_max_BatchNorm_stat_error": 1.1920928955078125e-07,
+  "status": "pass"
+}

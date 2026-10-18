@@ -1,0 +1,21 @@
+{
+  "panels": [
+    "F1c",
+    "F1d"
+  ],
+  "conclusion": "Drug transcriptional responses share stronger cross-cell Top20 correlation than genetic responses.",
+  "archetype": "quantitative grid",
+  "backend": "Python/matplotlib",
+  "retained_arrays": [
+    "genetic/pair_directed_r20",
+    "genetic/pair_index",
+    "chemical/pair_directed_r20",
+    "chemical/pair_index"
+  ],
+  "raw_976_gene_response_arrays_included": false,
+  "statistics": "Retained original directed correlations and Top20 bootstrap summary rows without numeric changes",
+  "files": {
+    "source_data/arrays.npz": "63db10570979df4e07264c19b980db964853672ce607f643e6df7034297b7321",
+    "source_data/01_transfer_summary.csv": "d96375e4ed8a570848f42eef2381b6737121fadb68ee6a06ca447f73d5ecfe93"
+  }
+}

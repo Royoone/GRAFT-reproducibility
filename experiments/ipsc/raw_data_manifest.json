@@ -1,0 +1,29 @@
+{
+  "article_id": 27989294,
+  "files": [
+    {
+      "id": 51051809,
+      "name": "TargetedScreen_Cell-Metadata.tsv.gz",
+      "size": 13491635,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/51051809",
+      "supplied_md5": "980a440a8132a20567c4c3610e6a5b20",
+      "computed_md5": "980a440a8132a20567c4c3610e6a5b20",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 51072902,
+      "name": "TargetedScreen_RNA-UMI-Counts.csv.gz",
+      "size": 4480969391,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/51072902",
+      "supplied_md5": "f0d613b1ea8147425501baddba034158",
+      "computed_md5": "f0d613b1ea8147425501baddba034158",
+      "mimetype": "application/gzip"
+    }
+  ],
+  "author_effects_article_id": 26819743,
+  "model_input": "CP10K-log1p, matched-line NonTarget subtraction; full976gene panel",
+  "prediction_inputs": "source-covered targets, at least20targetedcells/2guides/50controls",
+  "scoring_inputs": "at least10targetedcells/2guides/50controls"
+}

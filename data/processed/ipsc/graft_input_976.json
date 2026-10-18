@@ -1,0 +1,13 @@
+{
+  "screened_targets": 444,
+  "source_covered_targets": 118,
+  "stored_targets": 124,
+  "association_score_targets": 41,
+  "contexts": 19,
+  "genes": 976,
+  "response_field": "effects__lognorm_nt",
+  "response_definition": "CP10K using full-transcriptome UMI, log1p, same-line NonTarget subtraction",
+  "stored_validity": "at least 10 targeted cells, two guides and 50 controls; prediction further requires 20 targeted cells",
+  "input_sha256": "209fbce71cbcea0cdbde4786eb47b9214e37df7ac43e8f8657bbff9e694a6a7c",
+  "output_sha256": "bb46b89e2e96b9c6beab79044798530745fd291fed6660d32c0e490bf717de9b"
+}

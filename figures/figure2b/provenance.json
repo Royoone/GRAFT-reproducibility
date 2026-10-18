@@ -1,0 +1,30 @@
+{
+  "source_package": "Figure 2b internal benchmark",
+  "original_source_hashes": {
+    "code/render_figures.py": "e232b729076007bbfbcec03357eb92633a2040efdf94910580520b8261e5f7d4",
+    "code/draw_main_grids.py": "6529fef2e9ee4246633b0a66d67e5b94402074c532478827577c661855b41350",
+    "code/score_predictions.py": "41abbffe9fa5aa92c4416594e570e7b486d8dd1b47ef3c98a031c14e1df3f478",
+    "source_data/F2b_overall_ranking.csv": "45a7bf13b198a898cb698b32c6fb02408f85d0767dbddaeb1dfafa7ee520fa6b",
+    "source_data/frozen_reference_metrics.json": "a8069229be4c8f0585e03e2b2c50233535f7d72294b45a55e36e4fe96702c4f4",
+    "source_data/input_scored_runs.csv": "6f1f386c0b2e45d231b037864a19387cdc5a79e404aa638e0b73f8c1f0b9b26a",
+    "source_data/label_to_configuration.csv": "b11596416cfb34846392fe652381a0c6c7ef40c28e2202404dddd7ea17c68467",
+    "source_data/method_conditions.csv": "726f61b0b757e5986b310fd1a2fe940808fa9db929f6c0fb89130368f4e0f4ae"
+  },
+  "packaged_sha256": {
+    "figure_contract.json": "564ba977a6e4231e359d7169e45708c7c3e3e0a9223cbc479e67238058accb92",
+    "source_data/label_to_configuration.csv": "7179d1adb8d90cf249742385dd1cc6b5eaa7310758731290f6cb199361c85832",
+    "source_data/frozen_reference_metrics.json": "d8d5890dd8d57df5e01c86789808af82c9222d529971ed06d733589c406865d6",
+    "source_data/input_scored_runs.csv": "d32f9e653eba9c07411069156e39836fdb94bd2b7639c96e51590480896bd552",
+    "source_data/F2b_overall_ranking.csv": "d94b766c1bd701d3dbc2dfd523f7771463c30b9337ea979a658e96da8c9a99e2",
+    "source_data/method_conditions.csv": "92aef70d2a8bc97863b2ec6a5741aa3b6d47389e1bc96bb889e5cdc8310149ea",
+    "code/score_predictions.py": "eb640d684bfeeb1c52f759e4a0e4087996533473621c201488f6ed3bbc85968d",
+    "code/render_figures.py": "2e0bf5e6616ccc7ac8bf1a94320e41fac6242276ecee655c5b5627c091e92ee5",
+    "code/draw_main_grids.py": "1d9c97e22124c320be4bc88982c69c091c6debeafecc808ad6cf192a78c4d595"
+  },
+  "scope": "Seventeen configurations, five target contexts and three seeds; 255 fixed numeric run records.",
+  "adaptations": [
+    "Portable output directory; derived tables are written only to the output directory.",
+    "Public GRAFT naming and short baseline labels; numerical values and ranks are unchanged.",
+    "Only the Figure 2b calculation and plotting path is distributed."
+  ]
+}

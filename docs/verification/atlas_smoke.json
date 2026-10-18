@@ -1,0 +1,14 @@
+{
+  "scope": "Operational smoke test on real, unmodified drug-response profiles; not manuscript estimates.",
+  "n_real_chemical_entities": 310,
+  "contexts": 13,
+  "genes": 976,
+  "pca_components": 50,
+  "clusters": 8,
+  "umap_neighbors": 200,
+  "umap_min_dist": 0.5,
+  "umap_epochs": 200,
+  "seed": 20260926,
+  "selection": "fixed catalogue order, class labels and observation mask; no response-based selection",
+  "analysis_finished": true
+}

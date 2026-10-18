@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "context": "A375",
+  "seed": 52,
+  "smoke_only": true,
+  "genetic_pretrain_and_chemical_finetune_ran": true,
+  "target_genetic_rows_exercised": true,
+  "source_only_validation": true,
+  "target_query_used_for_training_or_selection": false,
+  "prediction_shape": [
+    8,
+    976
+  ],
+  "n_parameters": 374960
+}

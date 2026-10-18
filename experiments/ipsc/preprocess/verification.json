@@ -1,0 +1,49 @@
+{
+  "status": "pass",
+  "small_input_design": {
+    "cells": 229,
+    "contexts": 2,
+    "targets": 5,
+    "full_transcriptome_UMI_exceeds_retained_gene_sum": true,
+    "duplicate_TP53_features": 2,
+    "QC_conditions": [
+      "valid control count and two guides",
+      "fewer than10 targeted cells",
+      "one guide only",
+      "fewer than50 controls",
+      "zero-total-UMI cell",
+      "under100 detected genes",
+      "NonTarget and unassigned kept distinct"
+    ],
+    "input_type": "synthetic sparse count input exercising the preserved final calculations"
+  },
+  "NPZ_final_field_checks": {
+    "clone_target_effects_all_selected_genes.npz": {
+      "n_final_fields": 12,
+      "all_final_fields_bitwise_equal": true
+    },
+    "graft_input_976.npz": {
+      "n_final_fields": 13,
+      "all_final_fields_bitwise_equal": true
+    },
+    "cell_qc_summary.npz": {
+      "n_final_fields": 5,
+      "all_final_fields_bitwise_equal": true
+    },
+    "alias_target_effects.npz": {
+      "n_final_fields": 9,
+      "all_final_fields_bitwise_equal": true
+    }
+  },
+  "CSV_common_fields_exact": {
+    "clone_target_qc.csv": true,
+    "clone_target_qc_with_verified_aliases.csv": true,
+    "clone_qc.csv": true,
+    "retained_gene_qc.csv": true
+  },
+  "compact_prepare_input_compatible_and_bitwise_equal": true,
+  "valid_target_conditions": 3,
+  "manual_duplicate_count_CP10K_NonTarget_max_error": 1.8502033238831928e-08,
+  "only_final_log_norm_NonTarget_fields": true,
+  "full_raw_count_aggregation_rerun": false
+}

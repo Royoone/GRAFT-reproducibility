@@ -1,0 +1,21 @@
+{
+  "source": "Adopted external benchmark tables",
+  "retained_panels": [
+    "F3b",
+    "F3c"
+  ],
+  "scientific_values_changed": false,
+  "plotting": "Original panel_b and panel_c functions retained without changes",
+  "source_files": {
+    "source_data/b_benchmark.csv": "05ca80ac5959fbe2631b6916b8c72e53694a9a7eadc534375a23c9da34a8fe05",
+    "source_data/b_gains.csv": "2e007632a4ca1dac0ff6342463611a2755f48ee0dad965aecf982877f4d60eff",
+    "source_data/b_points.csv": "841c70ca64a4783d0ab622e323a41e9649b617ebc48dcf5c109b3d0d06ed2d08",
+    "source_data/b_run_metrics.csv": "45dad162d3469ba7adf0f381c82766e7d4e7b7e66033baa1b14fb3040e299a49",
+    "source_data/c_metric_ranks.csv": "8a898233f73cc23084d0cc1361825daedd0418775a8d419464e8f2494f8a1dd1",
+    "source_data/c_metric_values.csv": "46deaa10d00faa014395a84fc0783d82b2cd7ac95ac4558ad41bdc0b81f293a7",
+    "source_data/c_normalized_cells.csv": "1fc9fc120374de23c7ef89093ecede688cf1239ab2049523f7863c79b6bd0a3c",
+    "source_data/c_overall_ranking.csv": "62b3a90ffb44da91f6089e70054218d2f1e8543a5b0954aa31441da05c5ce080",
+    "source_data/manifest.json": "1b10ba9788e6b8adbf506f37646bce225ad6d7f1c685eec950d748b767bc115c"
+  },
+  "script_sha256": "7c179f53120dc58106a7b11ba47ac0ea14b3ef49ffeca6adcac55f5941e2aec4"
+}

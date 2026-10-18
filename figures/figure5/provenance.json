@@ -1,0 +1,13 @@
+{
+  "scope": [
+    "F5b",
+    "F5k"
+  ],
+  "original_input_sha256": {
+    "umap_coordinates.csv.gz": "978c5665f8fe976cee0cafb05c1c71d9dc469f3b27f6fdfc44ac499ae8568d05",
+    "chemical_catalog.csv": "1aa48acb2e3dc4e8e3a0198a719ff988ba16e344dbe02473dde4dc8a0d8ed198",
+    "disjoint_class_correlations.csv": "841ff2588d4f0bdad74fa1e43b805d252d9d11dd0544622aeb74c5d06d69dfa2"
+  },
+  "projection": "Original numeric strings retained; unused records/columns and unrelated figure inputs removed.",
+  "scientific_algorithms_unchanged": true
+}

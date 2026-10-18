@@ -1,0 +1,28 @@
+{
+  "panels": [
+    "F1c",
+    "F1d",
+    "F1i",
+    "F2b",
+    "F2d",
+    "F3b",
+    "F3c",
+    "F4b",
+    "F4c",
+    "F4f",
+    "F5b",
+    "F5k",
+    "F6e",
+    "F7f",
+    "F7g",
+    "F7h",
+    "FS2a",
+    "FS2b"
+  ],
+  "count": 18,
+  "default_entry_executed": true,
+  "only_selected_pdf_outputs": true,
+  "fixed_manuscript_values_preserved": true,
+  "layout_inspected": true,
+  "atlas_computation_reference_relocated_and_verified": true
+}

@@ -1,0 +1,18 @@
+{
+  "file": "model.npz",
+  "target": "HT29",
+  "seed": 52,
+  "mapping": "saturating",
+  "initialization": "pruned",
+  "scale": 1.2804151773452759,
+  "gain": 1.0,
+  "sources": [
+    "A375",
+    "A549",
+    "MCF7",
+    "PC3"
+  ],
+  "steps": 200,
+  "sha256": "a5c8914b10ff1a2ca929ef6ae77893762c35c2fe6c48b550fdd65601be269849",
+  "original_checkpoint_sha256": "fa569245fd3ff51406be59c0fdfed0dbb62e445bd0b89c1babb51ea069cc681b"
+}

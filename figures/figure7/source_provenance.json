@@ -1,0 +1,43 @@
+[
+  {
+    "source": "author_source/figure7/all235_evaluation_and_retention.csv",
+    "file": "figures/figure7/source_data/all235_evaluation_and_retention.csv",
+    "sha256": "6cf1768534c5c3d759ac5ceba253a3e962a3d1404c54062babea56322ab1c239",
+    "packaged_sha256": "310dfec8a36364a0cd908814045cc345811cc7f44ae696df47983842396cb44a"
+  },
+  {
+    "source": "author_source/figure7/plot_moa8_consistent_members_common_lines.csv",
+    "file": "figures/figure7/source_data/moa/plot_moa8_consistent_members_common_lines.csv",
+    "sha256": "0411a180063601751d2b336ee119058de80b0ff5f19b4d65ef8207fc32781315",
+    "packaged_sha256": "70dad6d3a4afece396105b2ab52ace5704587334e0ad5243985d7de8ede218ff"
+  },
+  {
+    "source": "author_source/figure7/plot_moa8_member_drugs_common_lines.csv",
+    "file": "figures/figure7/source_data/moa/plot_moa8_member_drugs_common_lines.csv",
+    "sha256": "713b4b785235a8299b30f9d1e529c8d9088b0775a2c091ece486a8ccc80c96fc",
+    "packaged_sha256": "713b4b785235a8299b30f9d1e529c8d9088b0775a2c091ece486a8ccc80c96fc"
+  },
+  {
+    "source": "author_source/figure7/recommended_four_plot_points.csv",
+    "file": "figures/figure7/source_data/examples/recommended_four_plot_points.csv",
+    "sha256": "6763bbfef273ca4f9799c03378eb105b3d230848591e93a1dd3cdbdcdbd8279e",
+    "packaged_sha256": "6763bbfef273ca4f9799c03378eb105b3d230848591e93a1dd3cdbdcdbd8279e"
+  },
+  {
+    "source": "author_source/figure7/recommended_four_drugs.csv",
+    "file": "figures/figure7/source_data/examples/recommended_four_drugs.csv",
+    "sha256": "27bbfea2f99a10c1f9c6d3199d4bb9bd172fd1e21b1318710012975b81cc7426",
+    "packaged_sha256": "27bbfea2f99a10c1f9c6d3199d4bb9bd172fd1e21b1318710012975b81cc7426"
+  },
+  {
+    "source": "author_source/figure7/draw_rank_size.py",
+    "source_sha256": "04b679e66dcec7d15ee6908890235a82a382f9e077acfd1a4d79fe10bf71c935",
+    "file": "figures/figure7/code/draw_response_correspondence.py",
+    "packaged_sha256": "f346a9f166973693cee93107990e0226078fba1edfddcf2d82ccd9d2aec9c10e",
+    "adaptations": [
+      "Only drug-level, MoA and four fixed drug-case correspondence panels are computed.",
+      "Histogram and retained-set counts are recomputed from the fixed 235-entity audit.",
+      "Original panel algorithms, axes, colours and short labels are preserved."
+    ]
+  }
+]

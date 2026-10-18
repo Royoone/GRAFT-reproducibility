@@ -1,0 +1,20 @@
+# Generated outputs and caches
+results/
+**/output/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.DS_Store
+*.egg-info/
+
+# Prepared experiment resources are distributed separately from Git history.
+# They are included in the local review copy and indexed in resources_manifest.json.
+data/processed/sources/*.npz
+data/processed/external/*.npz
+data/processed/atlas/atlas13_entities.npz
+data/processed/ipsc/*.npz
+data/checkpoints/**/*.npz
+data/model_bundle/*.npz
+data/raw/
+data/processed/diagnostics/*.npz

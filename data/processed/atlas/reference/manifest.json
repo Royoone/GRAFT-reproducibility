@@ -1,0 +1,40 @@
+{
+  "purpose": "Frozen scientific reference for Atlas13 computation checks",
+  "files": [
+    {
+      "file": "pi3k_mtor_disjoint_gene_profiles.csv",
+      "bytes": 71757,
+      "sha256": "d3a7aed666ced8533ed191baa5c1788313f2fa0b8c7fb432a0d4ed41833c6847"
+    },
+    {
+      "file": "pi3k_mtor_correlation_ci.csv",
+      "bytes": 192,
+      "sha256": "86ab8f831a73dfb9699f6a2aa7514a5d0ccad06ef4f59199763a94884ae1ea21"
+    },
+    {
+      "file": "hallmark_ora.csv",
+      "bytes": 2041342,
+      "sha256": "eac144d60be42aa956b499d77215a6b6ad5caa594816290c6f3e5d6c41a427cb"
+    },
+    {
+      "file": "response_metrics.npz",
+      "bytes": 23690359,
+      "sha256": "a2c9a307e3c9c0a59170bca7ddf4388fef6569a42d1e0afe0d4148d44dc695fa"
+    },
+    {
+      "file": "chemical_catalog.csv",
+      "bytes": 1560901,
+      "sha256": "1aa48acb2e3dc4e8e3a0198a719ff988ba16e344dbe02473dde4dc8a0d8ed198"
+    },
+    {
+      "file": "hallmark_class_scores.csv",
+      "bytes": 1275527,
+      "sha256": "c1982004edc7e860f2b8509cfa71ec1777139b871a2dd912735d1d303bd38a2d"
+    },
+    {
+      "file": "class_profiles.npz",
+      "bytes": 754264,
+      "sha256": "8175bfb665fcec999228048c7a8e180ac1387da6ffd629d5edacb341fd7b8d48"
+    }
+  ]
+}

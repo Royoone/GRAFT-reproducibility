@@ -1,0 +1,23 @@
+{
+  "panels": [
+    "F5b",
+    "F5k"
+  ],
+  "files": [
+    {
+      "path": "source_data/chemical_catalog.csv",
+      "bytes": 691387,
+      "sha256": "57c53080cded16896d7ff49cc0982ea3726979f551b12ed0957df88d0076c275"
+    },
+    {
+      "path": "source_data/disjoint_class_correlations.csv",
+      "bytes": 13963,
+      "sha256": "10886025b7bc90e45bdd1749dcb8fd8584504742a6cfecef408a37354d62acd2"
+    },
+    {
+      "path": "source_data/umap_coordinates.csv.gz",
+      "bytes": 1986188,
+      "sha256": "66b0a4fc4d6c21f45040a9ef2bfa3af45284e1346bdce234cb55d4cd94e66506"
+    }
+  ]
+}

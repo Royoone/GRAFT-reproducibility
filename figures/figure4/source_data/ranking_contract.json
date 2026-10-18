@@ -1,0 +1,24 @@
+{
+  "set_id": "F41_W3",
+  "families": [
+    "r",
+    "mse",
+    "mae"
+  ],
+  "windows": [
+    20,
+    50
+  ],
+  "metrics": [
+    "r20",
+    "r50",
+    "mse20",
+    "mse50",
+    "mae20",
+    "mae50"
+  ],
+  "exploratory": true,
+  "selection_basis": "Outcome-aware selection after inspecting existing LINCS results.",
+  "scope": "Strong-response correlation and amplitude reconstruction at Top20/50.",
+  "weighting": "Equal metric weights; same set and weights in both cohorts."
+}

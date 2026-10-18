@@ -1,0 +1,17 @@
+{
+  "file": "adapter.npz",
+  "kind": "ridge_remix",
+  "target": "MCF7",
+  "sha256": "05d8ea503a9fb29c910cd565fb578ab2d13700906856a917aa27198d67ddf888",
+  "original_checkpoint_sha256": "8d0130eb6eefdf20d0d23c384db7cd42db79cffb0e25c5f86ea25f8878deac13",
+  "best_epoch": 2,
+  "best_val_delta": 0.02125736077626546,
+  "train_cells": [
+    "A375",
+    "A549",
+    "HT29"
+  ],
+  "val_cell": "PC3",
+  "mu": 0.25,
+  "nu": 2.0
+}

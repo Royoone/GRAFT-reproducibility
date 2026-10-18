@@ -1,0 +1,13 @@
+{
+  "panels": [
+    "FS2a",
+    "FS2b"
+  ],
+  "conclusion": "Genetic-support budgets and retained context-state dimensions characterize the fixed GRAFT prediction behavior.",
+  "archetype": "quantitative grid",
+  "backend": "Python/matplotlib",
+  "input": "data/processed/diagnostics/reference/diagnostics.csv",
+  "input_sha256": "ae093c8ee3fcb9e0de698e1c08ffe4a68217debddbdd99ef1c71cdebb2c9b3ab",
+  "source_data_duplicated": false,
+  "statistics": "Original budget, seed, context and uncertainty aggregation rules retained"
+}

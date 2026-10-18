@@ -1,0 +1,12 @@
+{
+  "full_input_sha256": "6388ddc0a7262aba084ac8c9356c37b06772866187616ef4a2d59070c12778ae",
+  "n_entities": 7755,
+  "contexts": 13,
+  "genes": 976,
+  "predicted_rms_max_abs_difference": 0.0,
+  "class_profile_max_abs_difference": 0.0,
+  "all_predicted_hallmark_scores_max_abs_difference": 2.980232238769531e-07,
+  "n_hallmarks": 49,
+  "embedding_fit_performed": false,
+  "full_gene_profiles_verified": true
+}

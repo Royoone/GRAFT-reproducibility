@@ -1,0 +1,335 @@
+path	purpose_zh	distribution
+.gitignore	排除生成结果、缓存、原始大文件及另行分发的模型/实验张量。	代码仓库文件
+README.md	GitHub首页说明：项目用途、安装、最短运行示例及文档链接。	代码仓库文件
+THIRD_PARTY.md	第三方代码许可、UniPert/LINCS等资源来源与发布边界。	代码仓库文件
+data/annotations/compounds.csv	统一药物名称、SMILES与药理注释。	代码仓库文件
+data/checkpoints/adaptation/A375/kernel/adapter.npz	学习得到的锚点残差适配参数。	GitHub Release资源包
+data/checkpoints/adaptation/A375/kernel/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation/A375/ridge/adapter.npz	学习得到的锚点残差适配参数。	GitHub Release资源包
+data/checkpoints/adaptation/A375/ridge/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation/A375/ridge_remix/adapter.npz	学习得到的锚点残差适配参数。	GitHub Release资源包
+data/checkpoints/adaptation/A375/ridge_remix/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation/A549/kernel/adapter.npz	学习得到的锚点残差适配参数。	GitHub Release资源包
+data/checkpoints/adaptation/A549/kernel/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation/A549/ridge/adapter.npz	学习得到的锚点残差适配参数。	GitHub Release资源包
+data/checkpoints/adaptation/A549/ridge/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation/A549/ridge_remix/adapter.npz	学习得到的锚点残差适配参数。	GitHub Release资源包
+data/checkpoints/adaptation/A549/ridge_remix/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation/HT29/kernel/adapter.npz	学习得到的锚点残差适配参数。	GitHub Release资源包
+data/checkpoints/adaptation/HT29/kernel/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation/HT29/ridge/adapter.npz	学习得到的锚点残差适配参数。	GitHub Release资源包
+data/checkpoints/adaptation/HT29/ridge/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation/HT29/ridge_remix/adapter.npz	学习得到的锚点残差适配参数。	GitHub Release资源包
+data/checkpoints/adaptation/HT29/ridge_remix/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation/MCF7/kernel/adapter.npz	学习得到的锚点残差适配参数。	GitHub Release资源包
+data/checkpoints/adaptation/MCF7/kernel/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation/MCF7/ridge/adapter.npz	学习得到的锚点残差适配参数。	GitHub Release资源包
+data/checkpoints/adaptation/MCF7/ridge/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation/MCF7/ridge_remix/adapter.npz	学习得到的锚点残差适配参数。	GitHub Release资源包
+data/checkpoints/adaptation/MCF7/ridge_remix/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation/PC3/kernel/adapter.npz	学习得到的锚点残差适配参数。	GitHub Release资源包
+data/checkpoints/adaptation/PC3/kernel/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation/PC3/ridge/adapter.npz	学习得到的锚点残差适配参数。	GitHub Release资源包
+data/checkpoints/adaptation/PC3/ridge/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation/PC3/ridge_remix/adapter.npz	学习得到的锚点残差适配参数。	GitHub Release资源包
+data/checkpoints/adaptation/PC3/ridge_remix/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation/external/ridge/adapter.npz	学习得到的锚点残差适配参数。	GitHub Release资源包
+data/checkpoints/adaptation/external/ridge/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation/external/ridge_remix/adapter.npz	学习得到的锚点残差适配参数。	GitHub Release资源包
+data/checkpoints/adaptation/external/ridge_remix/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation_backbone/A375/229/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation_backbone/A375/229/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/adaptation_backbone/A375/52/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation_backbone/A375/52/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/adaptation_backbone/A375/564/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation_backbone/A375/564/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/adaptation_backbone/A549/229/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation_backbone/A549/229/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/adaptation_backbone/A549/52/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation_backbone/A549/52/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/adaptation_backbone/A549/564/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation_backbone/A549/564/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/adaptation_backbone/HT29/229/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation_backbone/HT29/229/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/adaptation_backbone/HT29/52/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation_backbone/HT29/52/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/adaptation_backbone/HT29/564/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation_backbone/HT29/564/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/adaptation_backbone/MCF7/229/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation_backbone/MCF7/229/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/adaptation_backbone/MCF7/52/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation_backbone/MCF7/52/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/adaptation_backbone/MCF7/564/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation_backbone/MCF7/564/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/adaptation_backbone/PC3/229/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation_backbone/PC3/229/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/adaptation_backbone/PC3/52/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation_backbone/PC3/52/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/adaptation_backbone/PC3/564/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/adaptation_backbone/PC3/564/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/adaptation_manifest.json	该数据/模型集合的文件、来源、轴或摘要校验清单。	代码仓库文件
+data/checkpoints/benchmark/A375/229/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/benchmark/A375/229/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/benchmark/A375/52/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/benchmark/A375/52/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/benchmark/A375/564/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/benchmark/A375/564/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/benchmark/A549/229/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/benchmark/A549/229/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/benchmark/A549/52/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/benchmark/A549/52/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/benchmark/A549/564/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/benchmark/A549/564/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/benchmark/HT29/229/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/benchmark/HT29/229/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/benchmark/HT29/52/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/benchmark/HT29/52/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/benchmark/HT29/564/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/benchmark/HT29/564/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/benchmark/MCF7/229/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/benchmark/MCF7/229/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/benchmark/MCF7/52/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/benchmark/MCF7/52/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/benchmark/MCF7/564/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/benchmark/MCF7/564/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/benchmark/PC3/229/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/benchmark/PC3/229/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/benchmark/PC3/52/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/benchmark/PC3/52/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/benchmark/PC3/564/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/benchmark/PC3/564/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/benchmark/external/229/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/benchmark/external/229/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/benchmark/external/52/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/benchmark/external/52/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/benchmark/external/564/metadata.json	对应权重的来源、训练背景、种子、尺度和参数信息。	代码仓库文件
+data/checkpoints/benchmark/external/564/model.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/checkpoints/benchmark/manifest.json	该数据/模型集合的文件、来源、轴或摘要校验清单。	代码仓库文件
+data/model_bundle/adapter.npz	学习得到的锚点残差适配参数。	GitHub Release资源包
+data/model_bundle/catalog.tsv	药物身份与可预测记录目录。	代码仓库文件
+data/model_bundle/genes.tsv	模型固定976基因的顺序。	代码仓库文件
+data/model_bundle/genetic_ids.tsv	模型源遗传输入身份目录。	代码仓库文件
+data/model_bundle/graft_seed229.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/model_bundle/graft_seed52.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/model_bundle/graft_seed564.npz	该目标/随机种子的冻结GRAFT模型张量。	GitHub Release资源包
+data/model_bundle/manifest.json	该数据/模型集合的文件、来源、轴或摘要校验清单。	代码仓库文件
+data/model_bundle/reference.npz	固定源参考响应、身份表示及来源计数。	GitHub Release资源包
+data/processed/adaptation/splits/A375/anchor_order.csv	该背景30份可嵌套抽取的锚点顺序。	代码仓库文件
+data/processed/adaptation/splits/A375/query_split.csv	该背景固定的评估查询与锚点池划分。	代码仓库文件
+data/processed/adaptation/splits/A549/anchor_order.csv	该背景30份可嵌套抽取的锚点顺序。	代码仓库文件
+data/processed/adaptation/splits/A549/query_split.csv	该背景固定的评估查询与锚点池划分。	代码仓库文件
+data/processed/adaptation/splits/HAP1/anchor_order.csv	该背景30份可嵌套抽取的锚点顺序。	代码仓库文件
+data/processed/adaptation/splits/HAP1/query_split.csv	该背景固定的评估查询与锚点池划分。	代码仓库文件
+data/processed/adaptation/splits/HT29/anchor_order.csv	该背景30份可嵌套抽取的锚点顺序。	代码仓库文件
+data/processed/adaptation/splits/HT29/query_split.csv	该背景固定的评估查询与锚点池划分。	代码仓库文件
+data/processed/adaptation/splits/HepG2/anchor_order.csv	该背景30份可嵌套抽取的锚点顺序。	代码仓库文件
+data/processed/adaptation/splits/HepG2/query_split.csv	该背景固定的评估查询与锚点池划分。	代码仓库文件
+data/processed/adaptation/splits/Jurkat/anchor_order.csv	该背景30份可嵌套抽取的锚点顺序。	代码仓库文件
+data/processed/adaptation/splits/Jurkat/query_split.csv	该背景固定的评估查询与锚点池划分。	代码仓库文件
+data/processed/adaptation/splits/K562_L1000/anchor_order.csv	该背景30份可嵌套抽取的锚点顺序。	代码仓库文件
+data/processed/adaptation/splits/K562_L1000/query_split.csv	该背景固定的评估查询与锚点池划分。	代码仓库文件
+data/processed/adaptation/splits/MCF10A/anchor_order.csv	该背景30份可嵌套抽取的锚点顺序。	代码仓库文件
+data/processed/adaptation/splits/MCF10A/query_split.csv	该背景固定的评估查询与锚点池划分。	代码仓库文件
+data/processed/adaptation/splits/MCF7/anchor_order.csv	该背景30份可嵌套抽取的锚点顺序。	代码仓库文件
+data/processed/adaptation/splits/MCF7/query_split.csv	该背景固定的评估查询与锚点池划分。	代码仓库文件
+data/processed/adaptation/splits/PC3/anchor_order.csv	该背景30份可嵌套抽取的锚点顺序。	代码仓库文件
+data/processed/adaptation/splits/PC3/query_split.csv	该背景固定的评估查询与锚点池划分。	代码仓库文件
+data/processed/adaptation/splits/paper_contract.json	该分析所需固定参数、统计、注释或来源说明。	代码仓库文件
+data/processed/atlas/atlas13_entities.npz	13背景×7755实体×976基因的定稿预测、实测层与测量掩码。	GitHub Release资源包
+data/processed/atlas/chemical_catalog.csv	实体身份、名称、MoA及固定类别的图谱注释。	代码仓库文件
+data/processed/atlas/coverage.csv	固定源数据表；主要字段：cell、records、observed_records、completed_records、chemical_entities等。	代码仓库文件
+data/processed/atlas/hallmark.gmt	论文使用的Hallmark基因集原文件。	代码仓库文件
+data/processed/atlas/record_catalog.csv	药物记录到完整InChIKey化学实体的对应。	代码仓库文件
+data/processed/atlas/reference/chemical_catalog.csv	实体身份、名称、MoA及固定类别的图谱注释。	代码仓库文件
+data/processed/atlas/reference/class_profiles.npz	该图件使用的冻结数值数组、响应、坐标或邻域缓存。	代码仓库文件
+data/processed/atlas/reference/hallmark_class_scores.csv	固定源数据表；主要字段：moa、cell、hallmark、n、mean等。	代码仓库文件
+data/processed/atlas/reference/hallmark_ora.csv	固定源数据表；主要字段：moa、cell、direction、hallmark、overlap等。	代码仓库文件
+data/processed/atlas/reference/manifest.json	该数据/模型集合的文件、来源、轴或摘要校验清单。	代码仓库文件
+data/processed/atlas/reference/pi3k_mtor_correlation_ci.csv	固定源数据表；主要字段：moa1、moa2、mode、n1、n2等。	代码仓库文件
+data/processed/atlas/reference/pi3k_mtor_disjoint_gene_profiles.csv	固定源数据表；主要字段：mode、gene、pi3k、mtor。	代码仓库文件
+data/processed/atlas/reference/response_metrics.npz	该图件使用的冻结数值数组、响应、坐标或邻域缓存。	代码仓库文件
+data/processed/comparisons/anchors20.json	五背景×三种子的固定20锚点名单。	代码仓库文件
+data/processed/diagnostics/reference/capacity.csv	固定源数据表；主要字段：variant、cell、seed、r。	代码仓库文件
+data/processed/diagnostics/reference/diagnostics.csv	固定源数据表；主要字段：cell、target、seed、task、label等。	代码仓库文件
+data/processed/diagnostics/reference/interfaces.csv	固定源数据表；主要字段：variant、cell、seed、n_params、r20_full等。	代码仓库文件
+data/processed/diagnostics/reference/representations.csv	固定源数据表；主要字段：task、space、p0、cell、seed等。	代码仓库文件
+data/processed/diagnostics/representations.npz	该图件使用的冻结数值数组、响应、坐标或邻域缓存。	GitHub Release资源包
+data/processed/diagnostics/representations_manifest.json	该数据/模型集合的文件、来源、轴或摘要校验清单。	代码仓库文件
+data/processed/external/HAP1.npz	该外部背景对齐的遗传响应、药物真值及固定查询身份。	GitHub Release资源包
+data/processed/external/HepG2.npz	该外部背景对齐的遗传响应、药物真值及固定查询身份。	GitHub Release资源包
+data/processed/external/Jurkat.npz	该外部背景对齐的遗传响应、药物真值及固定查询身份。	GitHub Release资源包
+data/processed/external/K562_L1000.npz	该外部背景对齐的遗传响应、药物真值及固定查询身份。	GitHub Release资源包
+data/processed/external/MCF10A.npz	该外部背景对齐的遗传响应、药物真值及固定查询身份。	GitHub Release资源包
+data/processed/ipsc/figshare_26819743_metadata.json	该分析所需固定参数、统计、注释或来源说明。	代码仓库文件
+data/processed/ipsc/figshare_27989294_metadata.json	该分析所需固定参数、统计、注释或来源说明。	代码仓库文件
+data/processed/ipsc/graft_input_976.json	该分析所需固定参数、统计、注释或来源说明。	代码仓库文件
+data/processed/ipsc/graft_input_976.npz	iPSC最终976基因响应及124个模型/评分条件的质量字段。	GitHub Release资源包
+data/processed/ipsc/record_catalog.csv	药物记录到完整InChIKey化学实体的对应。	代码仓库文件
+data/processed/sources/A375.npz	该源背景的遗传/药物身份、UniPert表示、976基因响应与冻结基因权重。	GitHub Release资源包
+data/processed/sources/A549.npz	该源背景的遗传/药物身份、UniPert表示、976基因响应与冻结基因权重。	GitHub Release资源包
+data/processed/sources/HT29.npz	该源背景的遗传/药物身份、UniPert表示、976基因响应与冻结基因权重。	GitHub Release资源包
+data/processed/sources/MCF7.npz	该源背景的遗传/药物身份、UniPert表示、976基因响应与冻结基因权重。	GitHub Release资源包
+data/processed/sources/PC3.npz	该源背景的遗传/药物身份、UniPert表示、976基因响应与冻结基因权重。	GitHub Release资源包
+data/processed/sources/manifest.json	该数据/模型集合的文件、来源、轴或摘要校验清单。	代码仓库文件
+docs/data.md	预处理响应、权重、图谱、iPSC的字段和数据分发方式。	代码仓库文件
+docs/experiments.md	训练、权重导出、评估、适配、比较方法的实际命令。	代码仓库文件
+docs/figures.md	图号、运行任务、输入和输出之间的对应关系。	代码仓库文件
+docs/file_inventory.tsv	本项目逐文件中文用途清单，便于搜索和表格审阅。	代码仓库文件
+docs/validation.md	已经完成的数值验证和自动化复现范围。	代码仓库文件
+docs/verification/atlas_input.json	已执行的数值或软件路径核验记录。	代码仓库文件
+docs/verification/atlas_smoke.json	已执行的数值或软件路径核验记录。	代码仓库文件
+docs/verification/atlas_statistics.json	已执行的数值或软件路径核验记录。	代码仓库文件
+docs/verification/implementation.json	已执行的数值或软件路径核验记录。	代码仓库文件
+docs/verification/representation_probes.json	已执行的数值或软件路径核验记录。	代码仓库文件
+docs/verification/selected_panels.json	已执行的数值或软件路径核验记录。	代码仓库文件
+experiments/adaptation/__init__.py	Python模块初始化；无需单独运行。	代码仓库文件
+experiments/adaptation/evaluate_fixed.py	按三种子、30份固定名单和各锚点预算重算适配效果。	代码仓库文件
+experiments/adaptation/features.py	从指定骨干提取D0预测、64维条件特征、源参考与实测值。	代码仓库文件
+experiments/adaptation/model.py	锚点残差适配器、门控、ridge/remix/kernel科学对照及损失。	代码仓库文件
+experiments/adaptation/ranking.py	按固定指标方向计算适配方法的显示排名及完整源表。	代码仓库文件
+experiments/adaptation/summarize.py	汇总适配增益、bootstrap区间、配对检验与多重校正。	代码仓库文件
+experiments/adaptation/train.py	按源背景训练适配器，用源验证背景选择参数。	代码仓库文件
+experiments/atlas/README.md	该模块的运行方式、输入字段和分析范围说明。	代码仓库文件
+experiments/atlas/__init__.py	Python模块初始化；无需单独运行。	代码仓库文件
+experiments/atlas/__main__.py	Atlas13完整张量再分析的命令入口。	代码仓库文件
+experiments/atlas/analysis.py	预测层的邻域、PCA50、固定UMAP、8类社区和Hallmark主分析。	代码仓库文件
+experiments/atlas/fingerprints.py	输出基因/程序指纹、PI3K–mTOR关系和置信区间。	代码仓库文件
+experiments/atlas/smoke.py	用固定真实数据子集检查完整分析路径；仅作软件测试。	代码仓库文件
+experiments/atlas/source_provenance.json	原始科学输入/源码的来源及SHA-256记录。	代码仓库文件
+experiments/atlas/statistics.py	类间相关、程序富集、多重校正和扩展图谱统计。	代码仓库文件
+experiments/atlas/validate.py	从冻结图谱缓存重算ORA及指纹等科学统计核验。	代码仓库文件
+experiments/backbone/__init__.py	Python模块初始化；无需单独运行。	代码仓库文件
+experiments/backbone/data.py	读入源数据、构建同身份参考、固定查询、训练episode及基因权重。	代码仓库文件
+experiments/backbone/evaluate.py	隔离目标查询标签的前向推断与训练后内部评估。	代码仓库文件
+experiments/backbone/model.py	GRAFT模型定义：跨矩、背景编码、hypernetwork、FiLM和响应读出。	代码仓库文件
+experiments/backbone/predict.py	加载论文指定权重，重算内部/外部预测及逐药物分数。	代码仓库文件
+experiments/backbone/train.py	只使用允许源背景的200步训练与训练日志。	代码仓库文件
+experiments/comparisons/__init__.py	Python模块初始化；无需单独运行。	代码仓库文件
+experiments/comparisons/data.py	为比较方法提供一致的预处理响应、固定查询及SMILES查找。	代码仓库文件
+experiments/comparisons/external.py	外部背景的比较网络、源训练及缺失编码回退。	代码仓库文件
+experiments/comparisons/external_extra.py	外部CIGER、TranSiGen和chemCPA的固定训练逻辑。	代码仓库文件
+experiments/comparisons/g2cp/LICENSE	随第三方源码保留的原许可文本。	代码仓库文件
+experiments/comparisons/g2cp/README.md	该模块的运行方式、输入字段和分析范围说明。	代码仓库文件
+experiments/comparisons/g2cp/__init__.py	Python模块初始化；无需单独运行。	代码仓库文件
+experiments/comparisons/g2cp/author/__init__.py	Python模块初始化；无需单独运行。	代码仓库文件
+experiments/comparisons/g2cp/author/model.py	保留的作者GEARS骨干代码。	代码仓库文件
+experiments/comparisons/g2cp/author/utils.py	作者图网络所需的三个工具函数。	代码仓库文件
+experiments/comparisons/g2cp/budget_verification.json	已执行的数值或软件路径核验记录。	代码仓库文件
+experiments/comparisons/g2cp/fast_forward.py	保持参数和数学等价的批量前向加速。	代码仓库文件
+experiments/comparisons/g2cp/helpers.py	允许训练数据的图构建、批处理、原损失和阶段训练。	代码仓库文件
+experiments/comparisons/g2cp/run.py	作者骨干G2CP：遗传预训练和源药物微调的两阶段比较。	代码仓库文件
+experiments/comparisons/g2cp/smoke_verification.json	已执行的数值或软件路径核验记录。	代码仓库文件
+experiments/comparisons/g2cp/source_provenance.json	原始科学输入/源码的来源及SHA-256记录。	代码仓库文件
+experiments/comparisons/g2cp/verification.json	已执行的数值或软件路径核验记录。	代码仓库文件
+experiments/comparisons/g2cp/verify_forward.py	独立核对作者前向、梯度和BatchNorm状态。	代码仓库文件
+experiments/comparisons/hypermap/LICENSE	随第三方源码保留的原许可文本。	代码仓库文件
+experiments/comparisons/hypermap/README.md	该模块的运行方式、输入字段和分析范围说明。	代码仓库文件
+experiments/comparisons/hypermap/__init__.py	Python模块初始化；无需单独运行。	代码仓库文件
+experiments/comparisons/hypermap/author_model.py	逐字保留的HyperMap作者网络。	代码仓库文件
+experiments/comparisons/hypermap/fit.py	完整二阶MAML源训练与20锚点回溯适配。	代码仓库文件
+experiments/comparisons/hypermap/fixed_protocol.json	五背景×三种子的固定学习率、训练时长、查询和锚点名单。	代码仓库文件
+experiments/comparisons/hypermap/helpers.py	固定药物词表、种子、模型和元学习辅助操作。	代码仓库文件
+experiments/comparisons/hypermap/run.py	按固定源端协议拟合并生成同次拟合下的D0/D20。	代码仓库文件
+experiments/comparisons/hypermap/source_provenance.json	原始科学输入/源码的来源及SHA-256记录。	代码仓库文件
+experiments/comparisons/hypermap/verification.json	已执行的数值或软件路径核验记录。	代码仓库文件
+experiments/comparisons/internal.py	内部十种比较配置的特征、源验证训练、损失与推断。	代码仓库文件
+experiments/comparisons/models.py	论文比较网络、图无关G2CP-adapter和对应训练函数。	代码仓库文件
+experiments/comparisons/run.py	统一比较入口，固定cohort/method/target/seed和G2CP-adapter药物预算。	代码仓库文件
+experiments/diagnostics/README.md	该模块的运行方式、输入字段和分析范围说明。	代码仓库文件
+experiments/diagnostics/__init__.py	Python模块初始化；无需单独运行。	代码仓库文件
+experiments/diagnostics/evaluate.py	复算遗传输入预算、状态维度保留、置换/零状态和来源替换干预。	代码仓库文件
+experiments/diagnostics/interfaces.py	重训论文18种条件接口/组件干预，保留原初始化与inner-step。	代码仓库文件
+experiments/diagnostics/probes.py	重新计算固定身份替换和2576目标药物支持的ridge表征探针。	代码仓库文件
+experiments/diagnostics/train.py	按固定200步重新训练六种容量科学对照，并隔离查询标签评估。	代码仓库文件
+experiments/ipsc/README.md	该模块的运行方式、输入字段和分析范围说明。	代码仓库文件
+experiments/ipsc/analyze_correspondence.py	复算235实体的遗传–药物对应、筛选标记和共同细胞株MoA统计。	代码仓库文件
+experiments/ipsc/predict.py	用三种子权重预测19株iPSC、合并化学实体并计算RMS。	代码仓库文件
+experiments/ipsc/prepare_input.py	从规范化遗传响应选择模型/遗传评分所需条件，输出紧凑输入。	代码仓库文件
+experiments/ipsc/preprocess/aggregate_alias_targets.py	用核实过的旧基因符号补齐靶向表达QC；使用同一最终归一化流程。	代码仓库文件
+experiments/ipsc/preprocess/aggregate_counts.py	计数空间先合并重复符号，再计算CP10K/log1p、同株NonTarget差值和QC。	代码仓库文件
+experiments/ipsc/preprocess/output_genes_976.npy	该图件使用的冻结数值数组、响应、坐标或邻域缓存。	代码仓库文件
+experiments/ipsc/preprocess/stream_counts.cpp	流式扫描原始RNA计数，保留指定基因并累计全转录组UMI。	代码仓库文件
+experiments/ipsc/preprocess/verification.json	已执行的数值或软件路径核验记录。	代码仓库文件
+experiments/ipsc/preprocess/verified_target_aliases.csv	固定源数据表；主要字段：perturbation_symbol、expression_symbol、NCBI_Gene、verified_url。	代码仓库文件
+experiments/ipsc/preprocess/wanted_alias_symbols.txt	原始计数扫描所需的基因符号/别名列表。	代码仓库文件
+experiments/ipsc/preprocess/wanted_gene_symbols.txt	原始计数扫描所需的基因符号/别名列表。	代码仓库文件
+experiments/ipsc/raw_data_manifest.json	该数据/模型集合的文件、来源、轴或摘要校验清单。	代码仓库文件
+experiments/ipsc/verification.json	已执行的数值或软件路径核验记录。	代码仓库文件
+experiments/metrics.py	比较方法使用的固定转录响应指标实现。	代码仓库文件
+figures/figure1/provenance.json	原始科学输入/源码的来源及SHA-256记录。	代码仓库文件
+figures/figure1/run.py	只生成F1c/d跨背景遗传与药物响应矩阵。	代码仓库文件
+figures/figure1/source_data/01_transfer_summary.csv	固定源数据表；主要字段：modality、k、mean、lo、hi等。	代码仓库文件
+figures/figure1/source_data/arrays.npz	该图件使用的冻结数值数组、响应、坐标或邻域缓存。	代码仓库文件
+figures/figure1i/code/draw_joint_modulation.py	联合显示F1i相关性、误差和配对增益。	代码仓库文件
+figures/figure1i/provenance.json	原始科学输入/源码的来源及SHA-256记录。	代码仓库文件
+figures/figure1i/source_data/frozen_ablation_cell_means.csv	固定源数据表；主要字段：arm、cell、r20、mse20、recall20等。	代码仓库文件
+figures/figure1i/source_data/frozen_ablation_paired_contrasts.csv	固定源数据表；主要字段：arm、reference、metric、delta、lo等。	代码仓库文件
+figures/figure2/README.md	该模块的运行方式、输入字段和分析范围说明。	代码仓库文件
+figures/figure2/code/panel_export.py	裁取原生绘图区并导出PDF、SVG及PNG。	代码仓库文件
+figures/figure2/code/render.py	只生成F2d，并重算五背景641药物的Spearman相关。	代码仓库文件
+figures/figure2/provenance.json	原始科学输入/源码的来源及SHA-256记录。	代码仓库文件
+figures/figure2/run.py	读取该组固定输入、调用数值/绘图函数并生成对应面板。	代码仓库文件
+figures/figure2/source_data/drug_gain.csv	固定源数据表；主要字段：target、drug、r20、src_r20、delta_r20等。	代码仓库文件
+figures/figure2b/code/draw_main_grids.py	F2b的指标标准化、排名和网格绘图。	代码仓库文件
+figures/figure2b/code/render_figures.py	从255条固定运行记录生成F2b和数值校验。	代码仓库文件
+figures/figure2b/code/score_predictions.py	F2b的统一评分定义和21指标清单。	代码仓库文件
+figures/figure2b/figure_contract.json	F2b固定方法名单、三种子、指标与显示规则。	代码仓库文件
+figures/figure2b/provenance.json	原始科学输入/源码的来源及SHA-256记录。	代码仓库文件
+figures/figure2b/source_data/F2b_overall_ranking.csv	F2b固定排名的源数据参照。	代码仓库文件
+figures/figure2b/source_data/frozen_reference_metrics.json	该分析所需固定参数、统计、注释或来源说明。	代码仓库文件
+figures/figure2b/source_data/input_scored_runs.csv	F2b采用的255条方法×背景×种子分数。	代码仓库文件
+figures/figure2b/source_data/label_to_configuration.csv	图中短名称与明确比较配置的对应。	代码仓库文件
+figures/figure2b/source_data/method_conditions.csv	比较方法的数据权限、表示、背景输入和训练设置。	代码仓库文件
+figures/figure3/code/draw_figure3.py	外部比较的覆盖、性能、排名、案例及预算绘图。	代码仓库文件
+figures/figure3/provenance.json	原始科学输入/源码的来源及SHA-256记录。	代码仓库文件
+figures/figure3/source_data/b_benchmark.csv	固定源数据表；主要字段：panel、method、mean、sd、n等。	代码仓库文件
+figures/figure3/source_data/b_gains.csv	固定源数据表；主要字段：panel、graft、source_mean、delta_r20、relative_gain_percent。	代码仓库文件
+figures/figure3/source_data/b_points.csv	固定源数据表；主要字段：panel、method、unit_id、r20。	代码仓库文件
+figures/figure3/source_data/b_run_metrics.csv	固定源数据表；主要字段：method、cell、seed、r20、rho20等。	代码仓库文件
+figures/figure3/source_data/c_metric_ranks.csv	固定源数据表；主要字段：method、r20、rho20、r50、r100等。	代码仓库文件
+figures/figure3/source_data/c_metric_values.csv	固定源数据表；主要字段：method、r20、rho20、r50、r100等。	代码仓库文件
+figures/figure3/source_data/c_normalized_cells.csv	固定源数据表；主要字段：method、cell、metric、raw、normalized。	代码仓库文件
+figures/figure3/source_data/c_overall_ranking.csv	固定源数据表；主要字段：method、mean_rank、first_place_count、r20。	代码仓库文件
+figures/figure3/source_data/manifest.json	该数据/模型集合的文件、来源、轴或摘要校验清单。	代码仓库文件
+figures/figure4/README.md	该模块的运行方式、输入字段和分析范围说明。	代码仓库文件
+figures/figure4/code/render.py	读取该组固定输入、调用数值/绘图函数并生成对应面板。	代码仓库文件
+figures/figure4/input_manifest.json	该组冻结图件输入的文件名、大小与SHA-256。	代码仓库文件
+figures/figure4/provenance.json	原始科学输入/源码的来源及SHA-256记录。	代码仓库文件
+figures/figure4/source_data/budget_summary.csv	固定源数据表；主要字段：cohort、cell、k、n_lists、r20等。	代码仓库文件
+figures/figure4/source_data/mechanism_paired_tests.csv	固定源数据表；主要字段：cohort、cell、moa_relation、n_drugs、mean等。	代码仓库文件
+figures/figure4/source_data/primary_metric_summary.csv	固定源数据表；主要字段：cohort、cell、method、metric、mean等。	代码仓库文件
+figures/figure4/source_data/ranking_contract.json	该分析所需固定参数、统计、注释或来源说明。	代码仓库文件
+figures/figure5/README.md	该模块的运行方式、输入字段和分析范围说明。	代码仓库文件
+figures/figure5/code/render.py	读取该组固定输入、调用数值/绘图函数并生成对应面板。	代码仓库文件
+figures/figure5/input_manifest.json	该组冻结图件输入的文件名、大小与SHA-256。	代码仓库文件
+figures/figure5/provenance.json	原始科学输入/源码的来源及SHA-256记录。	代码仓库文件
+figures/figure5/source_data/chemical_catalog.csv	实体身份、名称、MoA及固定类别的图谱注释。	代码仓库文件
+figures/figure5/source_data/disjoint_class_correlations.csv	固定源数据表；主要字段：moa1、moa2、mode、n1、n2等。	代码仓库文件
+figures/figure5/source_data/umap_coordinates.csv.gz	固定源数据表；主要字段：chemical_index、UMAP1、UMAP2。	代码仓库文件
+figures/figure6/README.md	该模块的运行方式、输入字段和分析范围说明。	代码仓库文件
+figures/figure6/code/panel_export.py	裁取原生绘图区并导出PDF、SVG及PNG。	代码仓库文件
+figures/figure6/code/render.py	只生成F6e，重算41组药物的配对t检验。	代码仓库文件
+figures/figure6/provenance.json	原始科学输入/源码的来源及SHA-256记录。	代码仓库文件
+figures/figure6/run.py	读取该组固定输入、调用数值/绘图函数并生成对应面板。	代码仓库文件
+figures/figure6/source_data/GR_family_ROS_raw.csv	固定源数据表；主要字段：、A375、A549、HT29、MCF7等。	代码仓库文件
+figures/figure6/source_data/summary.json	该分析所需固定参数、统计、注释或来源说明。	代码仓库文件
+figures/figure7/README.md	该模块的运行方式、输入字段和分析范围说明。	代码仓库文件
+figures/figure7/code/draw_response_correspondence.py	iPSC药物–遗传对应、RMS排名和HDAC3/EZH2基因/程序图。	代码仓库文件
+figures/figure7/run.py	读取该组固定输入、调用数值/绘图函数并生成对应面板。	代码仓库文件
+figures/figure7/source_data/all235_evaluation_and_retention.csv	235个可评价实体的完整统计及保留/排除标记。	代码仓库文件
+figures/figure7/source_data/examples/recommended_four_drugs.csv	固定源数据表；主要字段：drug_name、chemical_key、fig7f_moa、exact_measured_targets、n_measured等。	代码仓库文件
+figures/figure7/source_data/examples/recommended_four_plot_points.csv	固定源数据表；主要字段：chemical_key、drug_name、targets、clone、predicted_RMS等。	代码仓库文件
+figures/figure7/source_data/moa/plot_moa8_consistent_members_common_lines.csv	固定源数据表；主要字段：moa、n_drugs、mode、eligible_n_ge5、n_lines等。	代码仓库文件
+figures/figure7/source_data/moa/plot_moa8_member_drugs_common_lines.csv	固定源数据表；主要字段：chemical_key、drug_name、moa、exact_measured_targets、n_drugs_in_class等。	代码仓库文件
+figures/figure7/source_provenance.json	原始科学输入/源码的来源及SHA-256记录。	代码仓库文件
+figures/figure_tasks.json	各组图件的统一命令、图号范围及应生成的文件。	代码仓库文件
+figures/supplementary/provenance.json	原始科学输入/源码的来源及SHA-256记录。	代码仓库文件
+figures/supplementary/run.py	只生成FS2a/b遗传预算与状态维度诊断。	代码仓库文件
+requirements-test.txt	增加pytest，用于运行科学数据与评分规则检查。	代码仓库文件
+requirements.txt	经过本地验证的Python依赖版本。	代码仓库文件
+resources_manifest.json	所有交付文件的大小和SHA-256；不把本清单自身或生成结果纳入校验。	代码仓库文件
+run.py	统一入口：检查资源、生成图件、冻结权重评估及固定训练任务。	代码仓库文件
+tests/test_paper_contracts.py	检查固定实验合同、完美/常量预测、指定Top20排除规则。	代码仓库文件
+tools/__init__.py	Python模块初始化；无需单独运行。	代码仓库文件
+tools/export_checkpoint.py	将完整训练产生的PT权重严格导出为预测入口使用的NPZ及元数据。	代码仓库文件
+tools/verify.py	核对交付文件哈希、976基因轴、644查询基础集合和固定锚点名单。	代码仓库文件

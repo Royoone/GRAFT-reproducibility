@@ -1,0 +1,11 @@
+{
+  "scope": "F2d: source performance versus GRAFT gain",
+  "source": "Author manuscript quantitative source tables",
+  "inputs": [
+    {
+      "file": "drug_gain.csv",
+      "sha256": "e3027552b51a67e83f8d59aab7b52bf573e3e552b0e329664d80973d74a2e9c4"
+    }
+  ],
+  "calculation": "Original numerical rules, colors, axis limits and deterministic point order retained."
+}

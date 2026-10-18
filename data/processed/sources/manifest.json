@@ -1,0 +1,203 @@
+{
+  "collection": "GRAFT prepared source training data",
+  "source": "LINCS L1000",
+  "response": "signed Level-5 signatures, genetic 96h and drugs 10uM/24h",
+  "weights": "frozen original source drug-vs-rest weights, not recomputed from predictions",
+  "contexts": [
+    {
+      "context": "A375",
+      "file": "A375.npz",
+      "sha256": "4fee39381cd43afb8da1f539385ca4c4bfbe43e9f626820f60da14ab8302e4c4",
+      "bytes": 55655817,
+      "original_data_sha256": "0a5c2a36a57e95976c5b223b5c07395c6dcf5210fd73edbfe69ac256a50e2082",
+      "original_weight_asset_sha256": "0fbd374cc9365d1d3fbe3ef6587399da598e5ad108249098954745e980495f44",
+      "shapes": {
+        "genes": [
+          976
+        ],
+        "genetic_names": [
+          4985
+        ],
+        "genetic_embeddings": [
+          4985,
+          256
+        ],
+        "genetic_native": [
+          4985,
+          976
+        ],
+        "chemical_names": [
+          4019
+        ],
+        "chemical_embeddings": [
+          4019,
+          256
+        ],
+        "chemical_native": [
+          4019,
+          976
+        ],
+        "weights_rest": [
+          4019,
+          976
+        ]
+      }
+    },
+    {
+      "context": "A549",
+      "file": "A549.npz",
+      "sha256": "7acbe24afd959b1a2b90a4f8a60e021cd61a9079baff485c5088fdbff3157350",
+      "bytes": 74303048,
+      "original_data_sha256": "40e96bbc235d0795b59747619883caf82381abb6defa1e92810eadfe6ed22584",
+      "original_weight_asset_sha256": "e835f8292024e957e97940786526f1639434375b3187d8bfc4a12aa086ed1e33",
+      "shapes": {
+        "genes": [
+          976
+        ],
+        "genetic_names": [
+          4991
+        ],
+        "genetic_embeddings": [
+          4991,
+          256
+        ],
+        "genetic_native": [
+          4991,
+          976
+        ],
+        "chemical_names": [
+          6296
+        ],
+        "chemical_embeddings": [
+          6296,
+          256
+        ],
+        "chemical_native": [
+          6296,
+          976
+        ],
+        "weights_rest": [
+          6296,
+          976
+        ]
+      }
+    },
+    {
+      "context": "HT29",
+      "file": "HT29.npz",
+      "sha256": "ee3621ecb5def620ffe1f5f6dc2238b59409e05ba27b8eefa207f10a2a8706fa",
+      "bytes": 50503974,
+      "original_data_sha256": "5dae4d09ccf221726514f83f07a76422db602cf8619966a57538fd8f0817ec2c",
+      "original_weight_asset_sha256": "36bc62dc94bffe7a499d2363edc11a117adf443d5e7003a13c4a43d93e7d01ef",
+      "shapes": {
+        "genes": [
+          976
+        ],
+        "genetic_names": [
+          4980
+        ],
+        "genetic_embeddings": [
+          4980,
+          256
+        ],
+        "genetic_native": [
+          4980,
+          976
+        ],
+        "chemical_names": [
+          3390
+        ],
+        "chemical_embeddings": [
+          3390,
+          256
+        ],
+        "chemical_native": [
+          3390,
+          976
+        ],
+        "weights_rest": [
+          3390,
+          976
+        ]
+      }
+    },
+    {
+      "context": "MCF7",
+      "file": "MCF7.npz",
+      "sha256": "bec431017dcb6a797a6b26b2ecfaa6288a0aafee75d62cde3cbc1cfa4d2faf5d",
+      "bytes": 79979993,
+      "original_data_sha256": "fd4efaac866d0011dc4ece43d6677d6c0e67c36ad442a7e36a3b72f6f162b2aa",
+      "original_weight_asset_sha256": "b2ca74dee9d1955dd79294530a869d127e3aab5bc5dbc9a3988428528b7bdaf6",
+      "shapes": {
+        "genes": [
+          976
+        ],
+        "genetic_names": [
+          4156
+        ],
+        "genetic_embeddings": [
+          4156,
+          256
+        ],
+        "genetic_native": [
+          4156,
+          976
+        ],
+        "chemical_names": [
+          7444
+        ],
+        "chemical_embeddings": [
+          7444,
+          256
+        ],
+        "chemical_native": [
+          7444,
+          976
+        ],
+        "weights_rest": [
+          7444,
+          976
+        ]
+      }
+    },
+    {
+      "context": "PC3",
+      "file": "PC3.npz",
+      "sha256": "02dc69545d24fc3b4567e460a3412e2ea5e3cc8bd2a428a9742d056ed14fd4ad",
+      "bytes": 85666923,
+      "original_data_sha256": "c44bb8e19d6c5b2f5bab97808a8ce92dcc53cce5df82a322086e2ed559ca2007",
+      "original_weight_asset_sha256": "62023efa65c8ea3d92902e5768761787572e2e20586d71d4010300910ac95825",
+      "shapes": {
+        "genes": [
+          976
+        ],
+        "genetic_names": [
+          4980
+        ],
+        "genetic_embeddings": [
+          4980,
+          256
+        ],
+        "genetic_native": [
+          4980,
+          976
+        ],
+        "chemical_names": [
+          7676
+        ],
+        "chemical_embeddings": [
+          7676,
+          256
+        ],
+        "chemical_native": [
+          7676,
+          976
+        ],
+        "weights_rest": [
+          7676,
+          976
+        ]
+      }
+    }
+  ]
+}
